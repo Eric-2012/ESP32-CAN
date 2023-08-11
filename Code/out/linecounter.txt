@@ -1,0 +1,1649 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:26:35
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 249
+total code lines : 13972
+total comment lines : 6937
+total blank lines : 2473
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .cpp|           5273|           2002|           1031|     38|
+   |           .ini|              6|              9|              1|  0.043|
+   |             .h|           1965|           1201|            701|     14|
+   |    .properties|             39|              4|              0|   0.28|
+   |               |            114|              4|             29|   0.82|
+   |           .hpp|             44|             99|             24|   0.31|
+   |            .md|            540|             40|            204|    3.9|
+   |           .pdf|           4134|           2866|            102|     30|
+   |           .txt|            292|              0|             52|    2.1|
+   |           .ino|           1311|            640|            283|    9.4|
+   |           .pde|            231|             72|             46|    1.7|
+   |          .json|             21|              0|              0|   0.15|
+   |      .checksum|              1|              0|              0| 0.0072|
+   |             .a|              1|              0|              0| 0.0072|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+.pio\build\esp32doit-devkit-v1\.sconsign37.dblite, it is a binary file.
+.pio\build\esp32doit-devkit-v1\firmware.bin, it is a binary file.
+.pio\build\esp32doit-devkit-v1\firmware.elf, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\base64.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\cbuf.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\Esp.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-adc.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-bt.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-cpu.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-dac.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-gpio.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-i2c.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-ledc.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-log.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-matrix.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-misc.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-psram.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-rmt.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-sigmadelta.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-spi.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-time.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-timer.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-touch.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\esp32-hal-uart.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\FunctionalInterrupt.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\HardwareSerial.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\IPAddress.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\IPv6Address.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\libb64\cdecode.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\libb64\cencode.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\main.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\MD5Builder.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\Print.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\stdlib_noniso.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\Stream.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\StreamString.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\wiring_pulse.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\wiring_shift.c.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\WMath.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\FrameworkArduino\WString.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib089\libMPU9250.a, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib089\MPU9250\I2Cbus.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib089\MPU9250\MPU9250.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib08c\libWire.a, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib08c\Wire\Wire.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib270\libSPI.a, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib270\SPI\SPI.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib3f9\BoolArray\BoolArray.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib3f9\libBoolArray.a, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib432\KalmanFilter\Kalman.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib432\libKalmanFilter.a, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLE2902.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLE2904.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEAddress.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEAdvertisedDevice.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEAdvertising.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEBeacon.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLECharacteristic.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLECharacteristicMap.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEClient.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEDescriptor.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEDescriptorMap.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEDevice.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEEddystoneTLM.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEEddystoneURL.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEExceptions.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEHIDDevice.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLERemoteCharacteristic.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLERemoteDescriptor.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLERemoteService.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEScan.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLESecurity.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEServer.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEService.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEServiceMap.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEUtils.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEUUID.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\BLEValue.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\FreeRTOS.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\BLE\GeneralUtils.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib4fc\libBLE.a, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib92b\BluetoothSerial\BluetoothSerial.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\lib92b\libBluetoothSerial.a, it is a binary file.
+.pio\build\esp32doit-devkit-v1\libce5\ACAN2515\ACAN2515.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\libce5\ACAN2515\ACAN2515Settings.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\libce5\libACAN2515.a, it is a binary file.
+.pio\build\esp32doit-devkit-v1\libFrameworkArduino.a, it is a binary file.
+.pio\build\esp32doit-devkit-v1\libFrameworkArduinoVariant.a, code is 1, comment is 0, blank is 0.
+.pio\build\esp32doit-devkit-v1\partitions.bin, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\class_AvgCalc.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\class_CANRecv.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\class_CANSend.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\class_ParamFRAM.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\class_PwrReduction.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\class_ScreenUART.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\class_ScreenUARTProtocol.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\class_TaskManager.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\func_BMS.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\func_BusHSPI.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\func_BusI2C.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\func_Charger.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\func_Errors.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\func_Expander.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\func_Interrupts.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\func_MCU.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\func_Misc.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\func_RTC.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\global_Variables.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\main.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\task_BMSUART.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\task_BusCANExt.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\task_BusI2C.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\task_Errors.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\task_InertialSensor.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\task_ModeSelector.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\task_ScreenUART.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\task_UpdateIO.cpp.o, it is a binary file.
+.pio\build\esp32doit-devkit-v1\src\tasks_Bluetooth.cpp.o, it is a binary file.
+.pio\build\project.checksum, code is 1, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+lib\ACAN2515\examples\LoopBackDemo\LoopBackDemo.ino, code is 68, comment is 35, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoAdafruitFeatherM0\LoopBackDemoAdafruitFeatherM0.ino, code is 76, comment is 40, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoBitRateSettings\LoopBackDemoBitRateSettings.ino, code is 74, comment is 41, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoESP32-intensive\LoopBackDemoESP32-intensive.ino, code is 75, comment is 47, blank is 18.
+lib\ACAN2515\examples\LoopBackDemoESP32-no-int\LoopBackDemoESP32-no-int.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoESP32\LoopBackDemoESP32.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x-no-int\LoopBackDemoTeensy3x-no-int.ino, code is 86, comment is 40, blank is 15.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x\LoopBackDemoTeensy3x.ino, code is 86, comment is 39, blank is 15.
+lib\ACAN2515\examples\LoopBackFilterDataByte\LoopBackFilterDataByte.ino, code is 69, comment is 56, blank is 18.
+lib\ACAN2515\examples\LoopBackUsingFilters\LoopBackUsingFilters.ino, code is 86, comment is 60, blank is 22.
+lib\ACAN2515\examples\TestWithACAN\TestWithACAN.ino, code is 87, comment is 63, blank is 17.
+lib\ACAN2515\extras\acan2515.pdf, it is a binary file.
+lib\ACAN2515\keywords.txt, code is 29, comment is 0, blank is 7.
+lib\ACAN2515\library.properties, code is 9, comment is 1, blank is 0.
+lib\ACAN2515\LICENSE, code is 17, comment is 0, blank is 4.
+lib\ACAN2515\README.md, code is 86, comment is 11, blank is 28.
+lib\ACAN2515\src\ACAN2515.cpp, code is 632, comment is 232, blank is 80.
+lib\ACAN2515\src\ACAN2515.h, code is 115, comment is 72, blank is 88.
+lib\ACAN2515\src\ACAN2515Settings.cpp, code is 129, comment is 51, blank is 19.
+lib\ACAN2515\src\ACAN2515Settings.h, code is 56, comment is 84, blank is 57.
+lib\ACAN2515\src\ACANBuffer.h, code is 63, comment is 32, blank is 23.
+lib\ACAN2515\src\ACANBuffer16.h, code is 70, comment is 39, blank is 25.
+lib\ACAN2515\src\CANMessage.h, code is 20, comment is 22, blank is 9.
+lib\ACAN2515\src\MCP2515ReceiveFilters.h, code is 57, comment is 15, blank is 19.
+lib\BoolArray\BoolArray.cpp, code is 60, comment is 20, blank is 21.
+lib\BoolArray\BoolArray.h, code is 26, comment is 10, blank is 14.
+lib\BoolArray\examples\boolArrayDemo0\boolArrayDemo0.ino, code is 134, comment is 11, blank is 31.
+lib\BoolArray\examples\boolArrayDemo2\boolArrayDemo2.ino, code is 116, comment is 13, blank is 24.
+lib\BoolArray\examples\boolArrayDemo2\performance_0.2.0.txt, code is 20, comment is 0, blank is 5.
+lib\BoolArray\keywords.txt, code is 19, comment is 0, blank is 5.
+lib\BoolArray\library.json, code is 21, comment is 0, blank is 0.
+lib\BoolArray\library.properties, code is 11, comment is 1, blank is 0.
+lib\BoolArray\LICENSE, code is 17, comment is 0, blank is 4.
+lib\BoolArray\README.md, code is 37, comment is 3, blank is 20.
+lib\BoolArray\test\unit_test_001.cpp, code is 78, comment is 20, blank is 24.
+lib\KalmanFilter\examples\MPU6050\Graph\Convert.pde, code is 36, comment is 25, blank is 8.
+lib\KalmanFilter\examples\MPU6050\Graph\DrawAxis.pde, code is 116, comment is 32, blank is 15.
+lib\KalmanFilter\examples\MPU6050\Graph\Graph.pde, code is 79, comment is 15, blank is 23.
+lib\KalmanFilter\examples\MPU6050\Graph\README.md, code is 11, comment is 2, blank is 7.
+lib\KalmanFilter\examples\MPU6050\I2C.ino, code is 43, comment is 26, blank is 4.
+lib\KalmanFilter\examples\MPU6050\MPU6050.ino, code is 129, comment is 66, blank is 34.
+lib\KalmanFilter\examples\MPU6050\README.md, code is 6, comment is 3, blank is 4.
+lib\KalmanFilter\examples\README.md, code is 5, comment is 2, blank is 3.
+lib\KalmanFilter\gpl2.txt, code is 133, comment is 0, blank is 23.
+lib\KalmanFilter\Kalman.cpp, code is 42, comment is 44, blank is 15.
+lib\KalmanFilter\Kalman.h, code is 24, comment is 34, blank is 10.
+lib\KalmanFilter\keywords.txt, code is 22, comment is 0, blank is 7.
+lib\KalmanFilter\library.properties, code is 9, comment is 1, blank is 0.
+lib\KalmanFilter\README.md, code is 7, comment is 2, blank is 5.
+lib\MPU9250\examples\compass\compass.ino, code is 34, comment is 13, blank is 6.
+lib\MPU9250\extras\AK8963C.pdf, code is 547, comment is 1030, blank is 26.
+lib\MPU9250\extras\Embedded-Masters-MPU-9250-Breakout.pdf, code is 603, comment is 608, blank is 2.
+lib\MPU9250\extras\MPU-9250-AXIS.png, it is a binary file.
+lib\MPU9250\extras\MPU-9250-Datasheet.pdf, code is 873, comment is 245, blank is 32.
+lib\MPU9250\extras\MPU-9250-Register-Map.pdf, code is 650, comment is 423, blank is 25.
+lib\MPU9250\extras\MPU-9255-Datasheet.pdf, code is 622, comment is 302, blank is 14.
+lib\MPU9250\extras\MPU-9255-Register-Map.pdf, code is 839, comment is 258, blank is 3.
+lib\MPU9250\I2Cbus.cpp, code is 172, comment is 41, blank is 32.
+lib\MPU9250\I2Cbus.hpp, code is 44, comment is 99, blank is 24.
+lib\MPU9250\keywords.txt, code is 69, comment is 0, blank is 5.
+lib\MPU9250\library.properties, code is 10, comment is 1, blank is 0.
+lib\MPU9250\LICENSE, code is 17, comment is 0, blank is 4.
+lib\MPU9250\MPU9250.cpp, code is 833, comment is 271, blank is 82.
+lib\MPU9250\MPU9250.h, code is 264, comment is 51, blank is 6.
+lib\MPU9250\README.md, code is 388, comment is 17, blank is 137.
+lib\README, code is 37, comment is 2, blank is 9.
+platformio.ini, code is 6, comment is 9, blank is 1.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+test\README, code is 8, comment is 1, blank is 3.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:30:36
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 131
+total code lines : 13974
+total comment lines : 6937
+total blank lines : 2476
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |            114|              4|             29|   0.82|
+   |           .cpp|           5273|           2002|           1031|     38|
+   |           .ini|              9|              9|              4|  0.064|
+   |             .h|           1965|           1201|            701|     14|
+   |            .md|            540|             40|            204|    3.9|
+   |    .properties|             39|              4|              0|   0.28|
+   |           .txt|            292|              0|             52|    2.1|
+   |           .hpp|             44|             99|             24|   0.31|
+   |           .pdf|           4134|           2866|            102|     30|
+   |           .ino|           1311|            640|            283|    9.4|
+   |           .pde|            231|             72|             46|    1.7|
+   |          .json|             21|              0|              0|   0.15|
+   |      .checksum|              1|              0|              0| 0.0072|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+.pio\build\project.checksum, code is 1, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+lib\ACAN2515\examples\LoopBackDemo\LoopBackDemo.ino, code is 68, comment is 35, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoAdafruitFeatherM0\LoopBackDemoAdafruitFeatherM0.ino, code is 76, comment is 40, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoBitRateSettings\LoopBackDemoBitRateSettings.ino, code is 74, comment is 41, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoESP32-intensive\LoopBackDemoESP32-intensive.ino, code is 75, comment is 47, blank is 18.
+lib\ACAN2515\examples\LoopBackDemoESP32-no-int\LoopBackDemoESP32-no-int.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoESP32\LoopBackDemoESP32.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x-no-int\LoopBackDemoTeensy3x-no-int.ino, code is 86, comment is 40, blank is 15.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x\LoopBackDemoTeensy3x.ino, code is 86, comment is 39, blank is 15.
+lib\ACAN2515\examples\LoopBackFilterDataByte\LoopBackFilterDataByte.ino, code is 69, comment is 56, blank is 18.
+lib\ACAN2515\examples\LoopBackUsingFilters\LoopBackUsingFilters.ino, code is 86, comment is 60, blank is 22.
+lib\ACAN2515\examples\TestWithACAN\TestWithACAN.ino, code is 87, comment is 63, blank is 17.
+lib\ACAN2515\extras\acan2515.pdf, it is a binary file.
+lib\ACAN2515\keywords.txt, code is 29, comment is 0, blank is 7.
+lib\ACAN2515\library.properties, code is 9, comment is 1, blank is 0.
+lib\ACAN2515\LICENSE, code is 17, comment is 0, blank is 4.
+lib\ACAN2515\README.md, code is 86, comment is 11, blank is 28.
+lib\ACAN2515\src\ACAN2515.cpp, code is 632, comment is 232, blank is 80.
+lib\ACAN2515\src\ACAN2515.h, code is 115, comment is 72, blank is 88.
+lib\ACAN2515\src\ACAN2515Settings.cpp, code is 129, comment is 51, blank is 19.
+lib\ACAN2515\src\ACAN2515Settings.h, code is 56, comment is 84, blank is 57.
+lib\ACAN2515\src\ACANBuffer.h, code is 63, comment is 32, blank is 23.
+lib\ACAN2515\src\ACANBuffer16.h, code is 70, comment is 39, blank is 25.
+lib\ACAN2515\src\CANMessage.h, code is 20, comment is 22, blank is 9.
+lib\ACAN2515\src\MCP2515ReceiveFilters.h, code is 57, comment is 15, blank is 19.
+lib\BoolArray\BoolArray.cpp, code is 60, comment is 20, blank is 21.
+lib\BoolArray\BoolArray.h, code is 26, comment is 10, blank is 14.
+lib\BoolArray\examples\boolArrayDemo0\boolArrayDemo0.ino, code is 134, comment is 11, blank is 31.
+lib\BoolArray\examples\boolArrayDemo2\boolArrayDemo2.ino, code is 116, comment is 13, blank is 24.
+lib\BoolArray\examples\boolArrayDemo2\performance_0.2.0.txt, code is 20, comment is 0, blank is 5.
+lib\BoolArray\keywords.txt, code is 19, comment is 0, blank is 5.
+lib\BoolArray\library.json, code is 21, comment is 0, blank is 0.
+lib\BoolArray\library.properties, code is 11, comment is 1, blank is 0.
+lib\BoolArray\LICENSE, code is 17, comment is 0, blank is 4.
+lib\BoolArray\README.md, code is 37, comment is 3, blank is 20.
+lib\BoolArray\test\unit_test_001.cpp, code is 78, comment is 20, blank is 24.
+lib\KalmanFilter\examples\MPU6050\Graph\Convert.pde, code is 36, comment is 25, blank is 8.
+lib\KalmanFilter\examples\MPU6050\Graph\DrawAxis.pde, code is 116, comment is 32, blank is 15.
+lib\KalmanFilter\examples\MPU6050\Graph\Graph.pde, code is 79, comment is 15, blank is 23.
+lib\KalmanFilter\examples\MPU6050\Graph\README.md, code is 11, comment is 2, blank is 7.
+lib\KalmanFilter\examples\MPU6050\I2C.ino, code is 43, comment is 26, blank is 4.
+lib\KalmanFilter\examples\MPU6050\MPU6050.ino, code is 129, comment is 66, blank is 34.
+lib\KalmanFilter\examples\MPU6050\README.md, code is 6, comment is 3, blank is 4.
+lib\KalmanFilter\examples\README.md, code is 5, comment is 2, blank is 3.
+lib\KalmanFilter\gpl2.txt, code is 133, comment is 0, blank is 23.
+lib\KalmanFilter\Kalman.cpp, code is 42, comment is 44, blank is 15.
+lib\KalmanFilter\Kalman.h, code is 24, comment is 34, blank is 10.
+lib\KalmanFilter\keywords.txt, code is 22, comment is 0, blank is 7.
+lib\KalmanFilter\library.properties, code is 9, comment is 1, blank is 0.
+lib\KalmanFilter\README.md, code is 7, comment is 2, blank is 5.
+lib\MPU9250\examples\compass\compass.ino, code is 34, comment is 13, blank is 6.
+lib\MPU9250\extras\AK8963C.pdf, code is 547, comment is 1030, blank is 26.
+lib\MPU9250\extras\Embedded-Masters-MPU-9250-Breakout.pdf, code is 603, comment is 608, blank is 2.
+lib\MPU9250\extras\MPU-9250-AXIS.png, it is a binary file.
+lib\MPU9250\extras\MPU-9250-Datasheet.pdf, code is 873, comment is 245, blank is 32.
+lib\MPU9250\extras\MPU-9250-Register-Map.pdf, code is 650, comment is 423, blank is 25.
+lib\MPU9250\extras\MPU-9255-Datasheet.pdf, code is 622, comment is 302, blank is 14.
+lib\MPU9250\extras\MPU-9255-Register-Map.pdf, code is 839, comment is 258, blank is 3.
+lib\MPU9250\I2Cbus.cpp, code is 172, comment is 41, blank is 32.
+lib\MPU9250\I2Cbus.hpp, code is 44, comment is 99, blank is 24.
+lib\MPU9250\keywords.txt, code is 69, comment is 0, blank is 5.
+lib\MPU9250\library.properties, code is 10, comment is 1, blank is 0.
+lib\MPU9250\LICENSE, code is 17, comment is 0, blank is 4.
+lib\MPU9250\MPU9250.cpp, code is 833, comment is 271, blank is 82.
+lib\MPU9250\MPU9250.h, code is 264, comment is 51, blank is 6.
+lib\MPU9250\README.md, code is 388, comment is 17, blank is 137.
+lib\README, code is 37, comment is 2, blank is 9.
+platformio.ini, code is 9, comment is 9, blank is 4.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+test\README, code is 8, comment is 1, blank is 3.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:31:56
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 131
+total code lines : 13971
+total comment lines : 6937
+total blank lines : 2473
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |            114|              4|             29|   0.82|
+   |           .cpp|           5273|           2002|           1031|     38|
+   |           .ini|              6|              9|              1|  0.043|
+   |            .md|            540|             40|            204|    3.9|
+   |             .h|           1965|           1201|            701|     14|
+   |    .properties|             39|              4|              0|   0.28|
+   |           .txt|            292|              0|             52|    2.1|
+   |           .hpp|             44|             99|             24|   0.31|
+   |           .pdf|           4134|           2866|            102|     30|
+   |           .ino|           1311|            640|            283|    9.4|
+   |           .pde|            231|             72|             46|    1.7|
+   |          .json|             21|              0|              0|   0.15|
+   |      .checksum|              1|              0|              0| 0.0072|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+.pio\build\project.checksum, code is 1, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+lib\ACAN2515\examples\LoopBackDemo\LoopBackDemo.ino, code is 68, comment is 35, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoAdafruitFeatherM0\LoopBackDemoAdafruitFeatherM0.ino, code is 76, comment is 40, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoBitRateSettings\LoopBackDemoBitRateSettings.ino, code is 74, comment is 41, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoESP32-intensive\LoopBackDemoESP32-intensive.ino, code is 75, comment is 47, blank is 18.
+lib\ACAN2515\examples\LoopBackDemoESP32-no-int\LoopBackDemoESP32-no-int.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoESP32\LoopBackDemoESP32.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x-no-int\LoopBackDemoTeensy3x-no-int.ino, code is 86, comment is 40, blank is 15.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x\LoopBackDemoTeensy3x.ino, code is 86, comment is 39, blank is 15.
+lib\ACAN2515\examples\LoopBackFilterDataByte\LoopBackFilterDataByte.ino, code is 69, comment is 56, blank is 18.
+lib\ACAN2515\examples\LoopBackUsingFilters\LoopBackUsingFilters.ino, code is 86, comment is 60, blank is 22.
+lib\ACAN2515\examples\TestWithACAN\TestWithACAN.ino, code is 87, comment is 63, blank is 17.
+lib\ACAN2515\extras\acan2515.pdf, it is a binary file.
+lib\ACAN2515\keywords.txt, code is 29, comment is 0, blank is 7.
+lib\ACAN2515\library.properties, code is 9, comment is 1, blank is 0.
+lib\ACAN2515\LICENSE, code is 17, comment is 0, blank is 4.
+lib\ACAN2515\README.md, code is 86, comment is 11, blank is 28.
+lib\ACAN2515\src\ACAN2515.cpp, code is 632, comment is 232, blank is 80.
+lib\ACAN2515\src\ACAN2515.h, code is 115, comment is 72, blank is 88.
+lib\ACAN2515\src\ACAN2515Settings.cpp, code is 129, comment is 51, blank is 19.
+lib\ACAN2515\src\ACAN2515Settings.h, code is 56, comment is 84, blank is 57.
+lib\ACAN2515\src\ACANBuffer.h, code is 63, comment is 32, blank is 23.
+lib\ACAN2515\src\ACANBuffer16.h, code is 70, comment is 39, blank is 25.
+lib\ACAN2515\src\CANMessage.h, code is 20, comment is 22, blank is 9.
+lib\ACAN2515\src\MCP2515ReceiveFilters.h, code is 57, comment is 15, blank is 19.
+lib\BoolArray\BoolArray.cpp, code is 60, comment is 20, blank is 21.
+lib\BoolArray\BoolArray.h, code is 26, comment is 10, blank is 14.
+lib\BoolArray\examples\boolArrayDemo0\boolArrayDemo0.ino, code is 134, comment is 11, blank is 31.
+lib\BoolArray\examples\boolArrayDemo2\boolArrayDemo2.ino, code is 116, comment is 13, blank is 24.
+lib\BoolArray\examples\boolArrayDemo2\performance_0.2.0.txt, code is 20, comment is 0, blank is 5.
+lib\BoolArray\keywords.txt, code is 19, comment is 0, blank is 5.
+lib\BoolArray\library.json, code is 21, comment is 0, blank is 0.
+lib\BoolArray\library.properties, code is 11, comment is 1, blank is 0.
+lib\BoolArray\LICENSE, code is 17, comment is 0, blank is 4.
+lib\BoolArray\README.md, code is 37, comment is 3, blank is 20.
+lib\BoolArray\test\unit_test_001.cpp, code is 78, comment is 20, blank is 24.
+lib\KalmanFilter\examples\MPU6050\Graph\Convert.pde, code is 36, comment is 25, blank is 8.
+lib\KalmanFilter\examples\MPU6050\Graph\DrawAxis.pde, code is 116, comment is 32, blank is 15.
+lib\KalmanFilter\examples\MPU6050\Graph\Graph.pde, code is 79, comment is 15, blank is 23.
+lib\KalmanFilter\examples\MPU6050\Graph\README.md, code is 11, comment is 2, blank is 7.
+lib\KalmanFilter\examples\MPU6050\I2C.ino, code is 43, comment is 26, blank is 4.
+lib\KalmanFilter\examples\MPU6050\MPU6050.ino, code is 129, comment is 66, blank is 34.
+lib\KalmanFilter\examples\MPU6050\README.md, code is 6, comment is 3, blank is 4.
+lib\KalmanFilter\examples\README.md, code is 5, comment is 2, blank is 3.
+lib\KalmanFilter\gpl2.txt, code is 133, comment is 0, blank is 23.
+lib\KalmanFilter\Kalman.cpp, code is 42, comment is 44, blank is 15.
+lib\KalmanFilter\Kalman.h, code is 24, comment is 34, blank is 10.
+lib\KalmanFilter\keywords.txt, code is 22, comment is 0, blank is 7.
+lib\KalmanFilter\library.properties, code is 9, comment is 1, blank is 0.
+lib\KalmanFilter\README.md, code is 7, comment is 2, blank is 5.
+lib\MPU9250\examples\compass\compass.ino, code is 34, comment is 13, blank is 6.
+lib\MPU9250\extras\AK8963C.pdf, code is 547, comment is 1030, blank is 26.
+lib\MPU9250\extras\Embedded-Masters-MPU-9250-Breakout.pdf, code is 603, comment is 608, blank is 2.
+lib\MPU9250\extras\MPU-9250-AXIS.png, it is a binary file.
+lib\MPU9250\extras\MPU-9250-Datasheet.pdf, code is 873, comment is 245, blank is 32.
+lib\MPU9250\extras\MPU-9250-Register-Map.pdf, code is 650, comment is 423, blank is 25.
+lib\MPU9250\extras\MPU-9255-Datasheet.pdf, code is 622, comment is 302, blank is 14.
+lib\MPU9250\extras\MPU-9255-Register-Map.pdf, code is 839, comment is 258, blank is 3.
+lib\MPU9250\I2Cbus.cpp, code is 172, comment is 41, blank is 32.
+lib\MPU9250\I2Cbus.hpp, code is 44, comment is 99, blank is 24.
+lib\MPU9250\keywords.txt, code is 69, comment is 0, blank is 5.
+lib\MPU9250\library.properties, code is 10, comment is 1, blank is 0.
+lib\MPU9250\LICENSE, code is 17, comment is 0, blank is 4.
+lib\MPU9250\MPU9250.cpp, code is 833, comment is 271, blank is 82.
+lib\MPU9250\MPU9250.h, code is 264, comment is 51, blank is 6.
+lib\MPU9250\README.md, code is 388, comment is 17, blank is 137.
+lib\README, code is 37, comment is 2, blank is 9.
+platformio.ini, code is 6, comment is 9, blank is 1.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+test\README, code is 8, comment is 1, blank is 3.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:32:22
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 131
+total code lines : 13971
+total comment lines : 6937
+total blank lines : 2473
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |            114|              4|             29|   0.82|
+   |           .cpp|           5273|           2002|           1031|     38|
+   |           .ini|              6|              9|              1|  0.043|
+   |            .md|            540|             40|            204|    3.9|
+   |             .h|           1965|           1201|            701|     14|
+   |    .properties|             39|              4|              0|   0.28|
+   |           .txt|            292|              0|             52|    2.1|
+   |           .hpp|             44|             99|             24|   0.31|
+   |           .pdf|           4134|           2866|            102|     30|
+   |           .ino|           1311|            640|            283|    9.4|
+   |           .pde|            231|             72|             46|    1.7|
+   |          .json|             21|              0|              0|   0.15|
+   |      .checksum|              1|              0|              0| 0.0072|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+.pio\build\project.checksum, code is 1, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+lib\ACAN2515\examples\LoopBackDemo\LoopBackDemo.ino, code is 68, comment is 35, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoAdafruitFeatherM0\LoopBackDemoAdafruitFeatherM0.ino, code is 76, comment is 40, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoBitRateSettings\LoopBackDemoBitRateSettings.ino, code is 74, comment is 41, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoESP32-intensive\LoopBackDemoESP32-intensive.ino, code is 75, comment is 47, blank is 18.
+lib\ACAN2515\examples\LoopBackDemoESP32-no-int\LoopBackDemoESP32-no-int.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoESP32\LoopBackDemoESP32.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x-no-int\LoopBackDemoTeensy3x-no-int.ino, code is 86, comment is 40, blank is 15.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x\LoopBackDemoTeensy3x.ino, code is 86, comment is 39, blank is 15.
+lib\ACAN2515\examples\LoopBackFilterDataByte\LoopBackFilterDataByte.ino, code is 69, comment is 56, blank is 18.
+lib\ACAN2515\examples\LoopBackUsingFilters\LoopBackUsingFilters.ino, code is 86, comment is 60, blank is 22.
+lib\ACAN2515\examples\TestWithACAN\TestWithACAN.ino, code is 87, comment is 63, blank is 17.
+lib\ACAN2515\extras\acan2515.pdf, it is a binary file.
+lib\ACAN2515\keywords.txt, code is 29, comment is 0, blank is 7.
+lib\ACAN2515\library.properties, code is 9, comment is 1, blank is 0.
+lib\ACAN2515\LICENSE, code is 17, comment is 0, blank is 4.
+lib\ACAN2515\README.md, code is 86, comment is 11, blank is 28.
+lib\ACAN2515\src\ACAN2515.cpp, code is 632, comment is 232, blank is 80.
+lib\ACAN2515\src\ACAN2515.h, code is 115, comment is 72, blank is 88.
+lib\ACAN2515\src\ACAN2515Settings.cpp, code is 129, comment is 51, blank is 19.
+lib\ACAN2515\src\ACAN2515Settings.h, code is 56, comment is 84, blank is 57.
+lib\ACAN2515\src\ACANBuffer.h, code is 63, comment is 32, blank is 23.
+lib\ACAN2515\src\ACANBuffer16.h, code is 70, comment is 39, blank is 25.
+lib\ACAN2515\src\CANMessage.h, code is 20, comment is 22, blank is 9.
+lib\ACAN2515\src\MCP2515ReceiveFilters.h, code is 57, comment is 15, blank is 19.
+lib\BoolArray\BoolArray.cpp, code is 60, comment is 20, blank is 21.
+lib\BoolArray\BoolArray.h, code is 26, comment is 10, blank is 14.
+lib\BoolArray\examples\boolArrayDemo0\boolArrayDemo0.ino, code is 134, comment is 11, blank is 31.
+lib\BoolArray\examples\boolArrayDemo2\boolArrayDemo2.ino, code is 116, comment is 13, blank is 24.
+lib\BoolArray\examples\boolArrayDemo2\performance_0.2.0.txt, code is 20, comment is 0, blank is 5.
+lib\BoolArray\keywords.txt, code is 19, comment is 0, blank is 5.
+lib\BoolArray\library.json, code is 21, comment is 0, blank is 0.
+lib\BoolArray\library.properties, code is 11, comment is 1, blank is 0.
+lib\BoolArray\LICENSE, code is 17, comment is 0, blank is 4.
+lib\BoolArray\README.md, code is 37, comment is 3, blank is 20.
+lib\BoolArray\test\unit_test_001.cpp, code is 78, comment is 20, blank is 24.
+lib\KalmanFilter\examples\MPU6050\Graph\Convert.pde, code is 36, comment is 25, blank is 8.
+lib\KalmanFilter\examples\MPU6050\Graph\DrawAxis.pde, code is 116, comment is 32, blank is 15.
+lib\KalmanFilter\examples\MPU6050\Graph\Graph.pde, code is 79, comment is 15, blank is 23.
+lib\KalmanFilter\examples\MPU6050\Graph\README.md, code is 11, comment is 2, blank is 7.
+lib\KalmanFilter\examples\MPU6050\I2C.ino, code is 43, comment is 26, blank is 4.
+lib\KalmanFilter\examples\MPU6050\MPU6050.ino, code is 129, comment is 66, blank is 34.
+lib\KalmanFilter\examples\MPU6050\README.md, code is 6, comment is 3, blank is 4.
+lib\KalmanFilter\examples\README.md, code is 5, comment is 2, blank is 3.
+lib\KalmanFilter\gpl2.txt, code is 133, comment is 0, blank is 23.
+lib\KalmanFilter\Kalman.cpp, code is 42, comment is 44, blank is 15.
+lib\KalmanFilter\Kalman.h, code is 24, comment is 34, blank is 10.
+lib\KalmanFilter\keywords.txt, code is 22, comment is 0, blank is 7.
+lib\KalmanFilter\library.properties, code is 9, comment is 1, blank is 0.
+lib\KalmanFilter\README.md, code is 7, comment is 2, blank is 5.
+lib\MPU9250\examples\compass\compass.ino, code is 34, comment is 13, blank is 6.
+lib\MPU9250\extras\AK8963C.pdf, code is 547, comment is 1030, blank is 26.
+lib\MPU9250\extras\Embedded-Masters-MPU-9250-Breakout.pdf, code is 603, comment is 608, blank is 2.
+lib\MPU9250\extras\MPU-9250-AXIS.png, it is a binary file.
+lib\MPU9250\extras\MPU-9250-Datasheet.pdf, code is 873, comment is 245, blank is 32.
+lib\MPU9250\extras\MPU-9250-Register-Map.pdf, code is 650, comment is 423, blank is 25.
+lib\MPU9250\extras\MPU-9255-Datasheet.pdf, code is 622, comment is 302, blank is 14.
+lib\MPU9250\extras\MPU-9255-Register-Map.pdf, code is 839, comment is 258, blank is 3.
+lib\MPU9250\I2Cbus.cpp, code is 172, comment is 41, blank is 32.
+lib\MPU9250\I2Cbus.hpp, code is 44, comment is 99, blank is 24.
+lib\MPU9250\keywords.txt, code is 69, comment is 0, blank is 5.
+lib\MPU9250\library.properties, code is 10, comment is 1, blank is 0.
+lib\MPU9250\LICENSE, code is 17, comment is 0, blank is 4.
+lib\MPU9250\MPU9250.cpp, code is 833, comment is 271, blank is 82.
+lib\MPU9250\MPU9250.h, code is 264, comment is 51, blank is 6.
+lib\MPU9250\README.md, code is 388, comment is 17, blank is 137.
+lib\README, code is 37, comment is 2, blank is 9.
+platformio.ini, code is 6, comment is 9, blank is 1.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+test\README, code is 8, comment is 1, blank is 3.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:32:50
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 131
+total code lines : 13971
+total comment lines : 6937
+total blank lines : 2473
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |            114|              4|             29|   0.82|
+   |           .cpp|           5273|           2002|           1031|     38|
+   |           .ini|              6|              9|              1|  0.043|
+   |            .md|            540|             40|            204|    3.9|
+   |             .h|           1965|           1201|            701|     14|
+   |    .properties|             39|              4|              0|   0.28|
+   |           .txt|            292|              0|             52|    2.1|
+   |           .hpp|             44|             99|             24|   0.31|
+   |           .pdf|           4134|           2866|            102|     30|
+   |           .ino|           1311|            640|            283|    9.4|
+   |           .pde|            231|             72|             46|    1.7|
+   |          .json|             21|              0|              0|   0.15|
+   |      .checksum|              1|              0|              0| 0.0072|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+.pio\build\project.checksum, code is 1, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+lib\ACAN2515\examples\LoopBackDemo\LoopBackDemo.ino, code is 68, comment is 35, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoAdafruitFeatherM0\LoopBackDemoAdafruitFeatherM0.ino, code is 76, comment is 40, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoBitRateSettings\LoopBackDemoBitRateSettings.ino, code is 74, comment is 41, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoESP32-intensive\LoopBackDemoESP32-intensive.ino, code is 75, comment is 47, blank is 18.
+lib\ACAN2515\examples\LoopBackDemoESP32-no-int\LoopBackDemoESP32-no-int.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoESP32\LoopBackDemoESP32.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x-no-int\LoopBackDemoTeensy3x-no-int.ino, code is 86, comment is 40, blank is 15.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x\LoopBackDemoTeensy3x.ino, code is 86, comment is 39, blank is 15.
+lib\ACAN2515\examples\LoopBackFilterDataByte\LoopBackFilterDataByte.ino, code is 69, comment is 56, blank is 18.
+lib\ACAN2515\examples\LoopBackUsingFilters\LoopBackUsingFilters.ino, code is 86, comment is 60, blank is 22.
+lib\ACAN2515\examples\TestWithACAN\TestWithACAN.ino, code is 87, comment is 63, blank is 17.
+lib\ACAN2515\extras\acan2515.pdf, it is a binary file.
+lib\ACAN2515\keywords.txt, code is 29, comment is 0, blank is 7.
+lib\ACAN2515\library.properties, code is 9, comment is 1, blank is 0.
+lib\ACAN2515\LICENSE, code is 17, comment is 0, blank is 4.
+lib\ACAN2515\README.md, code is 86, comment is 11, blank is 28.
+lib\ACAN2515\src\ACAN2515.cpp, code is 632, comment is 232, blank is 80.
+lib\ACAN2515\src\ACAN2515.h, code is 115, comment is 72, blank is 88.
+lib\ACAN2515\src\ACAN2515Settings.cpp, code is 129, comment is 51, blank is 19.
+lib\ACAN2515\src\ACAN2515Settings.h, code is 56, comment is 84, blank is 57.
+lib\ACAN2515\src\ACANBuffer.h, code is 63, comment is 32, blank is 23.
+lib\ACAN2515\src\ACANBuffer16.h, code is 70, comment is 39, blank is 25.
+lib\ACAN2515\src\CANMessage.h, code is 20, comment is 22, blank is 9.
+lib\ACAN2515\src\MCP2515ReceiveFilters.h, code is 57, comment is 15, blank is 19.
+lib\BoolArray\BoolArray.cpp, code is 60, comment is 20, blank is 21.
+lib\BoolArray\BoolArray.h, code is 26, comment is 10, blank is 14.
+lib\BoolArray\examples\boolArrayDemo0\boolArrayDemo0.ino, code is 134, comment is 11, blank is 31.
+lib\BoolArray\examples\boolArrayDemo2\boolArrayDemo2.ino, code is 116, comment is 13, blank is 24.
+lib\BoolArray\examples\boolArrayDemo2\performance_0.2.0.txt, code is 20, comment is 0, blank is 5.
+lib\BoolArray\keywords.txt, code is 19, comment is 0, blank is 5.
+lib\BoolArray\library.json, code is 21, comment is 0, blank is 0.
+lib\BoolArray\library.properties, code is 11, comment is 1, blank is 0.
+lib\BoolArray\LICENSE, code is 17, comment is 0, blank is 4.
+lib\BoolArray\README.md, code is 37, comment is 3, blank is 20.
+lib\BoolArray\test\unit_test_001.cpp, code is 78, comment is 20, blank is 24.
+lib\KalmanFilter\examples\MPU6050\Graph\Convert.pde, code is 36, comment is 25, blank is 8.
+lib\KalmanFilter\examples\MPU6050\Graph\DrawAxis.pde, code is 116, comment is 32, blank is 15.
+lib\KalmanFilter\examples\MPU6050\Graph\Graph.pde, code is 79, comment is 15, blank is 23.
+lib\KalmanFilter\examples\MPU6050\Graph\README.md, code is 11, comment is 2, blank is 7.
+lib\KalmanFilter\examples\MPU6050\I2C.ino, code is 43, comment is 26, blank is 4.
+lib\KalmanFilter\examples\MPU6050\MPU6050.ino, code is 129, comment is 66, blank is 34.
+lib\KalmanFilter\examples\MPU6050\README.md, code is 6, comment is 3, blank is 4.
+lib\KalmanFilter\examples\README.md, code is 5, comment is 2, blank is 3.
+lib\KalmanFilter\gpl2.txt, code is 133, comment is 0, blank is 23.
+lib\KalmanFilter\Kalman.cpp, code is 42, comment is 44, blank is 15.
+lib\KalmanFilter\Kalman.h, code is 24, comment is 34, blank is 10.
+lib\KalmanFilter\keywords.txt, code is 22, comment is 0, blank is 7.
+lib\KalmanFilter\library.properties, code is 9, comment is 1, blank is 0.
+lib\KalmanFilter\README.md, code is 7, comment is 2, blank is 5.
+lib\MPU9250\examples\compass\compass.ino, code is 34, comment is 13, blank is 6.
+lib\MPU9250\extras\AK8963C.pdf, code is 547, comment is 1030, blank is 26.
+lib\MPU9250\extras\Embedded-Masters-MPU-9250-Breakout.pdf, code is 603, comment is 608, blank is 2.
+lib\MPU9250\extras\MPU-9250-AXIS.png, it is a binary file.
+lib\MPU9250\extras\MPU-9250-Datasheet.pdf, code is 873, comment is 245, blank is 32.
+lib\MPU9250\extras\MPU-9250-Register-Map.pdf, code is 650, comment is 423, blank is 25.
+lib\MPU9250\extras\MPU-9255-Datasheet.pdf, code is 622, comment is 302, blank is 14.
+lib\MPU9250\extras\MPU-9255-Register-Map.pdf, code is 839, comment is 258, blank is 3.
+lib\MPU9250\I2Cbus.cpp, code is 172, comment is 41, blank is 32.
+lib\MPU9250\I2Cbus.hpp, code is 44, comment is 99, blank is 24.
+lib\MPU9250\keywords.txt, code is 69, comment is 0, blank is 5.
+lib\MPU9250\library.properties, code is 10, comment is 1, blank is 0.
+lib\MPU9250\LICENSE, code is 17, comment is 0, blank is 4.
+lib\MPU9250\MPU9250.cpp, code is 833, comment is 271, blank is 82.
+lib\MPU9250\MPU9250.h, code is 264, comment is 51, blank is 6.
+lib\MPU9250\README.md, code is 388, comment is 17, blank is 137.
+lib\README, code is 37, comment is 2, blank is 9.
+platformio.ini, code is 6, comment is 9, blank is 1.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+test\README, code is 8, comment is 1, blank is 3.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:34:16
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 131
+total code lines : 13971
+total comment lines : 6937
+total blank lines : 2473
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |            114|              4|             29|   0.82|
+   |           .cpp|           5273|           2002|           1031|     38|
+   |           .ini|              6|              9|              1|  0.043|
+   |            .md|            540|             40|            204|    3.9|
+   |             .h|           1965|           1201|            701|     14|
+   |    .properties|             39|              4|              0|   0.28|
+   |           .txt|            292|              0|             52|    2.1|
+   |           .hpp|             44|             99|             24|   0.31|
+   |           .pdf|           4134|           2866|            102|     30|
+   |           .ino|           1311|            640|            283|    9.4|
+   |           .pde|            231|             72|             46|    1.7|
+   |          .json|             21|              0|              0|   0.15|
+   |      .checksum|              1|              0|              0| 0.0072|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+.pio\build\project.checksum, code is 1, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+lib\ACAN2515\examples\LoopBackDemo\LoopBackDemo.ino, code is 68, comment is 35, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoAdafruitFeatherM0\LoopBackDemoAdafruitFeatherM0.ino, code is 76, comment is 40, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoBitRateSettings\LoopBackDemoBitRateSettings.ino, code is 74, comment is 41, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoESP32-intensive\LoopBackDemoESP32-intensive.ino, code is 75, comment is 47, blank is 18.
+lib\ACAN2515\examples\LoopBackDemoESP32-no-int\LoopBackDemoESP32-no-int.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoESP32\LoopBackDemoESP32.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x-no-int\LoopBackDemoTeensy3x-no-int.ino, code is 86, comment is 40, blank is 15.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x\LoopBackDemoTeensy3x.ino, code is 86, comment is 39, blank is 15.
+lib\ACAN2515\examples\LoopBackFilterDataByte\LoopBackFilterDataByte.ino, code is 69, comment is 56, blank is 18.
+lib\ACAN2515\examples\LoopBackUsingFilters\LoopBackUsingFilters.ino, code is 86, comment is 60, blank is 22.
+lib\ACAN2515\examples\TestWithACAN\TestWithACAN.ino, code is 87, comment is 63, blank is 17.
+lib\ACAN2515\extras\acan2515.pdf, it is a binary file.
+lib\ACAN2515\keywords.txt, code is 29, comment is 0, blank is 7.
+lib\ACAN2515\library.properties, code is 9, comment is 1, blank is 0.
+lib\ACAN2515\LICENSE, code is 17, comment is 0, blank is 4.
+lib\ACAN2515\README.md, code is 86, comment is 11, blank is 28.
+lib\ACAN2515\src\ACAN2515.cpp, code is 632, comment is 232, blank is 80.
+lib\ACAN2515\src\ACAN2515.h, code is 115, comment is 72, blank is 88.
+lib\ACAN2515\src\ACAN2515Settings.cpp, code is 129, comment is 51, blank is 19.
+lib\ACAN2515\src\ACAN2515Settings.h, code is 56, comment is 84, blank is 57.
+lib\ACAN2515\src\ACANBuffer.h, code is 63, comment is 32, blank is 23.
+lib\ACAN2515\src\ACANBuffer16.h, code is 70, comment is 39, blank is 25.
+lib\ACAN2515\src\CANMessage.h, code is 20, comment is 22, blank is 9.
+lib\ACAN2515\src\MCP2515ReceiveFilters.h, code is 57, comment is 15, blank is 19.
+lib\BoolArray\BoolArray.cpp, code is 60, comment is 20, blank is 21.
+lib\BoolArray\BoolArray.h, code is 26, comment is 10, blank is 14.
+lib\BoolArray\examples\boolArrayDemo0\boolArrayDemo0.ino, code is 134, comment is 11, blank is 31.
+lib\BoolArray\examples\boolArrayDemo2\boolArrayDemo2.ino, code is 116, comment is 13, blank is 24.
+lib\BoolArray\examples\boolArrayDemo2\performance_0.2.0.txt, code is 20, comment is 0, blank is 5.
+lib\BoolArray\keywords.txt, code is 19, comment is 0, blank is 5.
+lib\BoolArray\library.json, code is 21, comment is 0, blank is 0.
+lib\BoolArray\library.properties, code is 11, comment is 1, blank is 0.
+lib\BoolArray\LICENSE, code is 17, comment is 0, blank is 4.
+lib\BoolArray\README.md, code is 37, comment is 3, blank is 20.
+lib\BoolArray\test\unit_test_001.cpp, code is 78, comment is 20, blank is 24.
+lib\KalmanFilter\examples\MPU6050\Graph\Convert.pde, code is 36, comment is 25, blank is 8.
+lib\KalmanFilter\examples\MPU6050\Graph\DrawAxis.pde, code is 116, comment is 32, blank is 15.
+lib\KalmanFilter\examples\MPU6050\Graph\Graph.pde, code is 79, comment is 15, blank is 23.
+lib\KalmanFilter\examples\MPU6050\Graph\README.md, code is 11, comment is 2, blank is 7.
+lib\KalmanFilter\examples\MPU6050\I2C.ino, code is 43, comment is 26, blank is 4.
+lib\KalmanFilter\examples\MPU6050\MPU6050.ino, code is 129, comment is 66, blank is 34.
+lib\KalmanFilter\examples\MPU6050\README.md, code is 6, comment is 3, blank is 4.
+lib\KalmanFilter\examples\README.md, code is 5, comment is 2, blank is 3.
+lib\KalmanFilter\gpl2.txt, code is 133, comment is 0, blank is 23.
+lib\KalmanFilter\Kalman.cpp, code is 42, comment is 44, blank is 15.
+lib\KalmanFilter\Kalman.h, code is 24, comment is 34, blank is 10.
+lib\KalmanFilter\keywords.txt, code is 22, comment is 0, blank is 7.
+lib\KalmanFilter\library.properties, code is 9, comment is 1, blank is 0.
+lib\KalmanFilter\README.md, code is 7, comment is 2, blank is 5.
+lib\MPU9250\examples\compass\compass.ino, code is 34, comment is 13, blank is 6.
+lib\MPU9250\extras\AK8963C.pdf, code is 547, comment is 1030, blank is 26.
+lib\MPU9250\extras\Embedded-Masters-MPU-9250-Breakout.pdf, code is 603, comment is 608, blank is 2.
+lib\MPU9250\extras\MPU-9250-AXIS.png, it is a binary file.
+lib\MPU9250\extras\MPU-9250-Datasheet.pdf, code is 873, comment is 245, blank is 32.
+lib\MPU9250\extras\MPU-9250-Register-Map.pdf, code is 650, comment is 423, blank is 25.
+lib\MPU9250\extras\MPU-9255-Datasheet.pdf, code is 622, comment is 302, blank is 14.
+lib\MPU9250\extras\MPU-9255-Register-Map.pdf, code is 839, comment is 258, blank is 3.
+lib\MPU9250\I2Cbus.cpp, code is 172, comment is 41, blank is 32.
+lib\MPU9250\I2Cbus.hpp, code is 44, comment is 99, blank is 24.
+lib\MPU9250\keywords.txt, code is 69, comment is 0, blank is 5.
+lib\MPU9250\library.properties, code is 10, comment is 1, blank is 0.
+lib\MPU9250\LICENSE, code is 17, comment is 0, blank is 4.
+lib\MPU9250\MPU9250.cpp, code is 833, comment is 271, blank is 82.
+lib\MPU9250\MPU9250.h, code is 264, comment is 51, blank is 6.
+lib\MPU9250\README.md, code is 388, comment is 17, blank is 137.
+lib\README, code is 37, comment is 2, blank is 9.
+platformio.ini, code is 6, comment is 9, blank is 1.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+test\README, code is 8, comment is 1, blank is 3.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:35:24
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 131
+total code lines : 13971
+total comment lines : 6937
+total blank lines : 2473
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |            114|              4|             29|   0.82|
+   |      .checksum|              1|              0|              0| 0.0072|
+   |           .ini|              6|              9|              1|  0.043|
+   |           .cpp|           5273|           2002|           1031|     38|
+   |             .h|           1965|           1201|            701|     14|
+   |            .md|            540|             40|            204|    3.9|
+   |    .properties|             39|              4|              0|   0.28|
+   |           .txt|            292|              0|             52|    2.1|
+   |           .hpp|             44|             99|             24|   0.31|
+   |           .pdf|           4134|           2866|            102|     30|
+   |           .ino|           1311|            640|            283|    9.4|
+   |          .json|             21|              0|              0|   0.15|
+   |           .pde|            231|             72|             46|    1.7|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+.pio\build\project.checksum, code is 1, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+lib\ACAN2515\examples\LoopBackDemo\LoopBackDemo.ino, code is 68, comment is 35, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoAdafruitFeatherM0\LoopBackDemoAdafruitFeatherM0.ino, code is 76, comment is 40, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoBitRateSettings\LoopBackDemoBitRateSettings.ino, code is 74, comment is 41, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoESP32-intensive\LoopBackDemoESP32-intensive.ino, code is 75, comment is 47, blank is 18.
+lib\ACAN2515\examples\LoopBackDemoESP32-no-int\LoopBackDemoESP32-no-int.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoESP32\LoopBackDemoESP32.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x-no-int\LoopBackDemoTeensy3x-no-int.ino, code is 86, comment is 40, blank is 15.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x\LoopBackDemoTeensy3x.ino, code is 86, comment is 39, blank is 15.
+lib\ACAN2515\examples\LoopBackFilterDataByte\LoopBackFilterDataByte.ino, code is 69, comment is 56, blank is 18.
+lib\ACAN2515\examples\LoopBackUsingFilters\LoopBackUsingFilters.ino, code is 86, comment is 60, blank is 22.
+lib\ACAN2515\examples\TestWithACAN\TestWithACAN.ino, code is 87, comment is 63, blank is 17.
+lib\ACAN2515\extras\acan2515.pdf, it is a binary file.
+lib\ACAN2515\keywords.txt, code is 29, comment is 0, blank is 7.
+lib\ACAN2515\library.properties, code is 9, comment is 1, blank is 0.
+lib\ACAN2515\LICENSE, code is 17, comment is 0, blank is 4.
+lib\ACAN2515\README.md, code is 86, comment is 11, blank is 28.
+lib\ACAN2515\src\ACAN2515.cpp, code is 632, comment is 232, blank is 80.
+lib\ACAN2515\src\ACAN2515.h, code is 115, comment is 72, blank is 88.
+lib\ACAN2515\src\ACAN2515Settings.cpp, code is 129, comment is 51, blank is 19.
+lib\ACAN2515\src\ACAN2515Settings.h, code is 56, comment is 84, blank is 57.
+lib\ACAN2515\src\ACANBuffer.h, code is 63, comment is 32, blank is 23.
+lib\ACAN2515\src\ACANBuffer16.h, code is 70, comment is 39, blank is 25.
+lib\ACAN2515\src\CANMessage.h, code is 20, comment is 22, blank is 9.
+lib\ACAN2515\src\MCP2515ReceiveFilters.h, code is 57, comment is 15, blank is 19.
+lib\BoolArray\BoolArray.cpp, code is 60, comment is 20, blank is 21.
+lib\BoolArray\BoolArray.h, code is 26, comment is 10, blank is 14.
+lib\BoolArray\examples\boolArrayDemo0\boolArrayDemo0.ino, code is 134, comment is 11, blank is 31.
+lib\BoolArray\examples\boolArrayDemo2\boolArrayDemo2.ino, code is 116, comment is 13, blank is 24.
+lib\BoolArray\examples\boolArrayDemo2\performance_0.2.0.txt, code is 20, comment is 0, blank is 5.
+lib\BoolArray\keywords.txt, code is 19, comment is 0, blank is 5.
+lib\BoolArray\library.json, code is 21, comment is 0, blank is 0.
+lib\BoolArray\library.properties, code is 11, comment is 1, blank is 0.
+lib\BoolArray\LICENSE, code is 17, comment is 0, blank is 4.
+lib\BoolArray\README.md, code is 37, comment is 3, blank is 20.
+lib\BoolArray\test\unit_test_001.cpp, code is 78, comment is 20, blank is 24.
+lib\KalmanFilter\examples\MPU6050\Graph\Convert.pde, code is 36, comment is 25, blank is 8.
+lib\KalmanFilter\examples\MPU6050\Graph\DrawAxis.pde, code is 116, comment is 32, blank is 15.
+lib\KalmanFilter\examples\MPU6050\Graph\Graph.pde, code is 79, comment is 15, blank is 23.
+lib\KalmanFilter\examples\MPU6050\Graph\README.md, code is 11, comment is 2, blank is 7.
+lib\KalmanFilter\examples\MPU6050\I2C.ino, code is 43, comment is 26, blank is 4.
+lib\KalmanFilter\examples\MPU6050\MPU6050.ino, code is 129, comment is 66, blank is 34.
+lib\KalmanFilter\examples\MPU6050\README.md, code is 6, comment is 3, blank is 4.
+lib\KalmanFilter\examples\README.md, code is 5, comment is 2, blank is 3.
+lib\KalmanFilter\gpl2.txt, code is 133, comment is 0, blank is 23.
+lib\KalmanFilter\Kalman.cpp, code is 42, comment is 44, blank is 15.
+lib\KalmanFilter\Kalman.h, code is 24, comment is 34, blank is 10.
+lib\KalmanFilter\keywords.txt, code is 22, comment is 0, blank is 7.
+lib\KalmanFilter\library.properties, code is 9, comment is 1, blank is 0.
+lib\KalmanFilter\README.md, code is 7, comment is 2, blank is 5.
+lib\MPU9250\examples\compass\compass.ino, code is 34, comment is 13, blank is 6.
+lib\MPU9250\extras\AK8963C.pdf, code is 547, comment is 1030, blank is 26.
+lib\MPU9250\extras\Embedded-Masters-MPU-9250-Breakout.pdf, code is 603, comment is 608, blank is 2.
+lib\MPU9250\extras\MPU-9250-AXIS.png, it is a binary file.
+lib\MPU9250\extras\MPU-9250-Datasheet.pdf, code is 873, comment is 245, blank is 32.
+lib\MPU9250\extras\MPU-9250-Register-Map.pdf, code is 650, comment is 423, blank is 25.
+lib\MPU9250\extras\MPU-9255-Datasheet.pdf, code is 622, comment is 302, blank is 14.
+lib\MPU9250\extras\MPU-9255-Register-Map.pdf, code is 839, comment is 258, blank is 3.
+lib\MPU9250\I2Cbus.cpp, code is 172, comment is 41, blank is 32.
+lib\MPU9250\I2Cbus.hpp, code is 44, comment is 99, blank is 24.
+lib\MPU9250\keywords.txt, code is 69, comment is 0, blank is 5.
+lib\MPU9250\library.properties, code is 10, comment is 1, blank is 0.
+lib\MPU9250\LICENSE, code is 17, comment is 0, blank is 4.
+lib\MPU9250\MPU9250.cpp, code is 833, comment is 271, blank is 82.
+lib\MPU9250\MPU9250.h, code is 264, comment is 51, blank is 6.
+lib\MPU9250\README.md, code is 388, comment is 17, blank is 137.
+lib\README, code is 37, comment is 2, blank is 9.
+platformio.ini, code is 6, comment is 9, blank is 1.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+test\README, code is 8, comment is 1, blank is 3.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:36:10
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 131
+total code lines : 13971
+total comment lines : 6937
+total blank lines : 2473
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |            114|              4|             29|   0.82|
+   |           .cpp|           5273|           2002|           1031|     38|
+   |           .ini|              6|              9|              1|  0.043|
+   |            .md|            540|             40|            204|    3.9|
+   |             .h|           1965|           1201|            701|     14|
+   |    .properties|             39|              4|              0|   0.28|
+   |           .txt|            292|              0|             52|    2.1|
+   |           .hpp|             44|             99|             24|   0.31|
+   |           .pdf|           4134|           2866|            102|     30|
+   |           .ino|           1311|            640|            283|    9.4|
+   |           .pde|            231|             72|             46|    1.7|
+   |          .json|             21|              0|              0|   0.15|
+   |      .checksum|              1|              0|              0| 0.0072|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+.pio\build\project.checksum, code is 1, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+lib\ACAN2515\examples\LoopBackDemo\LoopBackDemo.ino, code is 68, comment is 35, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoAdafruitFeatherM0\LoopBackDemoAdafruitFeatherM0.ino, code is 76, comment is 40, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoBitRateSettings\LoopBackDemoBitRateSettings.ino, code is 74, comment is 41, blank is 14.
+lib\ACAN2515\examples\LoopBackDemoESP32-intensive\LoopBackDemoESP32-intensive.ino, code is 75, comment is 47, blank is 18.
+lib\ACAN2515\examples\LoopBackDemoESP32-no-int\LoopBackDemoESP32-no-int.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoESP32\LoopBackDemoESP32.ino, code is 74, comment is 45, blank is 17.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x-no-int\LoopBackDemoTeensy3x-no-int.ino, code is 86, comment is 40, blank is 15.
+lib\ACAN2515\examples\LoopBackDemoTeensy3x\LoopBackDemoTeensy3x.ino, code is 86, comment is 39, blank is 15.
+lib\ACAN2515\examples\LoopBackFilterDataByte\LoopBackFilterDataByte.ino, code is 69, comment is 56, blank is 18.
+lib\ACAN2515\examples\LoopBackUsingFilters\LoopBackUsingFilters.ino, code is 86, comment is 60, blank is 22.
+lib\ACAN2515\examples\TestWithACAN\TestWithACAN.ino, code is 87, comment is 63, blank is 17.
+lib\ACAN2515\extras\acan2515.pdf, it is a binary file.
+lib\ACAN2515\keywords.txt, code is 29, comment is 0, blank is 7.
+lib\ACAN2515\library.properties, code is 9, comment is 1, blank is 0.
+lib\ACAN2515\LICENSE, code is 17, comment is 0, blank is 4.
+lib\ACAN2515\README.md, code is 86, comment is 11, blank is 28.
+lib\ACAN2515\src\ACAN2515.cpp, code is 632, comment is 232, blank is 80.
+lib\ACAN2515\src\ACAN2515.h, code is 115, comment is 72, blank is 88.
+lib\ACAN2515\src\ACAN2515Settings.cpp, code is 129, comment is 51, blank is 19.
+lib\ACAN2515\src\ACAN2515Settings.h, code is 56, comment is 84, blank is 57.
+lib\ACAN2515\src\ACANBuffer.h, code is 63, comment is 32, blank is 23.
+lib\ACAN2515\src\ACANBuffer16.h, code is 70, comment is 39, blank is 25.
+lib\ACAN2515\src\CANMessage.h, code is 20, comment is 22, blank is 9.
+lib\ACAN2515\src\MCP2515ReceiveFilters.h, code is 57, comment is 15, blank is 19.
+lib\BoolArray\BoolArray.cpp, code is 60, comment is 20, blank is 21.
+lib\BoolArray\BoolArray.h, code is 26, comment is 10, blank is 14.
+lib\BoolArray\examples\boolArrayDemo0\boolArrayDemo0.ino, code is 134, comment is 11, blank is 31.
+lib\BoolArray\examples\boolArrayDemo2\boolArrayDemo2.ino, code is 116, comment is 13, blank is 24.
+lib\BoolArray\examples\boolArrayDemo2\performance_0.2.0.txt, code is 20, comment is 0, blank is 5.
+lib\BoolArray\keywords.txt, code is 19, comment is 0, blank is 5.
+lib\BoolArray\library.json, code is 21, comment is 0, blank is 0.
+lib\BoolArray\library.properties, code is 11, comment is 1, blank is 0.
+lib\BoolArray\LICENSE, code is 17, comment is 0, blank is 4.
+lib\BoolArray\README.md, code is 37, comment is 3, blank is 20.
+lib\BoolArray\test\unit_test_001.cpp, code is 78, comment is 20, blank is 24.
+lib\KalmanFilter\examples\MPU6050\Graph\Convert.pde, code is 36, comment is 25, blank is 8.
+lib\KalmanFilter\examples\MPU6050\Graph\DrawAxis.pde, code is 116, comment is 32, blank is 15.
+lib\KalmanFilter\examples\MPU6050\Graph\Graph.pde, code is 79, comment is 15, blank is 23.
+lib\KalmanFilter\examples\MPU6050\Graph\README.md, code is 11, comment is 2, blank is 7.
+lib\KalmanFilter\examples\MPU6050\I2C.ino, code is 43, comment is 26, blank is 4.
+lib\KalmanFilter\examples\MPU6050\MPU6050.ino, code is 129, comment is 66, blank is 34.
+lib\KalmanFilter\examples\MPU6050\README.md, code is 6, comment is 3, blank is 4.
+lib\KalmanFilter\examples\README.md, code is 5, comment is 2, blank is 3.
+lib\KalmanFilter\gpl2.txt, code is 133, comment is 0, blank is 23.
+lib\KalmanFilter\Kalman.cpp, code is 42, comment is 44, blank is 15.
+lib\KalmanFilter\Kalman.h, code is 24, comment is 34, blank is 10.
+lib\KalmanFilter\keywords.txt, code is 22, comment is 0, blank is 7.
+lib\KalmanFilter\library.properties, code is 9, comment is 1, blank is 0.
+lib\KalmanFilter\README.md, code is 7, comment is 2, blank is 5.
+lib\MPU9250\examples\compass\compass.ino, code is 34, comment is 13, blank is 6.
+lib\MPU9250\extras\AK8963C.pdf, code is 547, comment is 1030, blank is 26.
+lib\MPU9250\extras\Embedded-Masters-MPU-9250-Breakout.pdf, code is 603, comment is 608, blank is 2.
+lib\MPU9250\extras\MPU-9250-AXIS.png, it is a binary file.
+lib\MPU9250\extras\MPU-9250-Datasheet.pdf, code is 873, comment is 245, blank is 32.
+lib\MPU9250\extras\MPU-9250-Register-Map.pdf, code is 650, comment is 423, blank is 25.
+lib\MPU9250\extras\MPU-9255-Datasheet.pdf, code is 622, comment is 302, blank is 14.
+lib\MPU9250\extras\MPU-9255-Register-Map.pdf, code is 839, comment is 258, blank is 3.
+lib\MPU9250\I2Cbus.cpp, code is 172, comment is 41, blank is 32.
+lib\MPU9250\I2Cbus.hpp, code is 44, comment is 99, blank is 24.
+lib\MPU9250\keywords.txt, code is 69, comment is 0, blank is 5.
+lib\MPU9250\library.properties, code is 10, comment is 1, blank is 0.
+lib\MPU9250\LICENSE, code is 17, comment is 0, blank is 4.
+lib\MPU9250\MPU9250.cpp, code is 833, comment is 271, blank is 82.
+lib\MPU9250\MPU9250.h, code is 264, comment is 51, blank is 6.
+lib\MPU9250\README.md, code is 388, comment is 17, blank is 137.
+lib\README, code is 37, comment is 2, blank is 9.
+platformio.ini, code is 6, comment is 9, blank is 1.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+test\README, code is 8, comment is 1, blank is 3.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:37:14
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 65
+total code lines : 4630
+total comment lines : 2176
+total blank lines : 1217
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .cpp|           3327|           1323|            758|     72|
+   |               |             26|              2|              8|   0.56|
+   |           .ini|              6|              9|              1|   0.13|
+   |             .h|           1270|            842|            450|     27|
+   |      .checksum|              1|              0|              0|  0.022|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+.pio\build\project.checksum, code is 1, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+platformio.ini, code is 6, comment is 9, blank is 1.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+test\README, code is 8, comment is 1, blank is 3.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:38:41
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 63
+total code lines : 4621
+total comment lines : 2175
+total blank lines : 1214
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .cpp|           3327|           1323|            758|     72|
+   |           .ini|              6|              9|              1|   0.13|
+   |             .h|           1270|            842|            450|     27|
+   |               |             18|              1|              5|   0.39|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+platformio.ini, code is 6, comment is 9, blank is 1.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-05-11 14:39:22
+count workspace : d:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\ECU\Coding\VCU2-0\Code\ESP32_ECU
+total files : 62
+total code lines : 4615
+total comment lines : 2166
+total blank lines : 1213
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .cpp|           3327|           1323|            758|     72|
+   |             .h|           1270|            842|            450|     28|
+   |               |             18|              1|              5|   0.39|
+   -------------------------------------------------------------------------
+.gitignore, code is 5, comment is 0, blank is 0.
+include\class_AvgCalc.h, code is 80, comment is 36, blank is 24.
+include\class_CANRecv.h, code is 24, comment is 15, blank is 13.
+include\class_CANSend.h, code is 26, comment is 16, blank is 15.
+include\class_ParamFRAM.h, code is 64, comment is 36, blank is 17.
+include\class_PwrReduction.h, code is 34, comment is 28, blank is 18.
+include\class_ScreenUART.h, code is 76, comment is 12, blank is 11.
+include\class_ScreenUARTProtocol.h, code is 117, comment is 8, blank is 15.
+include\class_TaskManager.h, code is 46, comment is 29, blank is 18.
+include\func_BMS.h, code is 27, comment is 25, blank is 23.
+include\func_BusHSPI.h, code is 9, comment is 5, blank is 4.
+include\func_BusI2C.h, code is 10, comment is 7, blank is 6.
+include\func_Charger.h, code is 9, comment is 6, blank is 5.
+include\func_Errors.h, code is 71, comment is 18, blank is 12.
+include\func_Expander.h, code is 11, comment is 7, blank is 6.
+include\func_Interrupts.h, code is 7, comment is 5, blank is 4.
+include\func_MCU.h, code is 14, comment is 10, blank is 9.
+include\func_Misc.h, code is 25, comment is 40, blank is 15.
+include\func_RTC.h, code is 14, comment is 9, blank is 8.
+include\global_Constants.h, code is 122, comment is 76, blank is 22.
+include\global_Structures.h, code is 276, comment is 353, blank is 143.
+include\global_Variables.h, code is 89, comment is 45, blank is 12.
+include\main.h, code is 20, comment is 4, blank is 5.
+include\README, code is 13, comment is 1, blank is 5.
+include\task_BMSUART.h, code is 10, comment is 7, blank is 5.
+include\task_BusCANExt.h, code is 12, comment is 6, blank is 5.
+include\task_BusI2C.h, code is 10, comment is 5, blank is 5.
+include\task_Errors.h, code is 8, comment is 5, blank is 4.
+include\task_InertialSensor.h, code is 9, comment is 4, blank is 4.
+include\task_ModeSelector.h, code is 8, comment is 4, blank is 4.
+include\task_ScreenUART.h, code is 15, comment is 9, blank is 8.
+include\task_UpdateIO.h, code is 10, comment is 5, blank is 4.
+include\tasks_Bluetooth.h, code is 17, comment is 7, blank is 6.
+src\class_AvgCalc.cpp, code is 85, comment is 29, blank is 22.
+src\class_CANRecv.cpp, code is 43, comment is 26, blank is 17.
+src\class_CANSend.cpp, code is 54, comment is 27, blank is 20.
+src\class_ParamFRAM.cpp, code is 45, comment is 27, blank is 8.
+src\class_PwrReduction.cpp, code is 24, comment is 11, blank is 7.
+src\class_ScreenUART.cpp, code is 447, comment is 64, blank is 77.
+src\class_ScreenUARTProtocol.cpp, code is 147, comment is 4, blank is 19.
+src\class_TaskManager.cpp, code is 108, comment is 37, blank is 28.
+src\func_BMS.cpp, code is 158, comment is 42, blank is 27.
+src\func_BusHSPI.cpp, code is 93, comment is 18, blank is 16.
+src\func_BusI2C.cpp, code is 134, comment is 132, blank is 23.
+src\func_Charger.cpp, code is 27, comment is 11, blank is 7.
+src\func_Errors.cpp, code is 81, comment is 30, blank is 17.
+src\func_Expander.cpp, code is 107, comment is 79, blank is 12.
+src\func_Interrupts.cpp, code is 27, comment is 26, blank is 10.
+src\func_MCU.cpp, code is 179, comment is 108, blank is 53.
+src\func_Misc.cpp, code is 87, comment is 28, blank is 16.
+src\func_RTC.cpp, code is 61, comment is 26, blank is 9.
+src\global_Variables.cpp, code is 71, comment is 47, blank is 11.
+src\main.cpp, code is 65, comment is 46, blank is 20.
+src\task_BMSUART.cpp, code is 338, comment is 69, blank is 103.
+src\task_BusCANExt.cpp, code is 130, comment is 26, blank is 18.
+src\task_BusI2C.cpp, code is 29, comment is 16, blank is 10.
+src\task_Errors.cpp, code is 70, comment is 76, blank is 63.
+src\task_InertialSensor.cpp, code is 88, comment is 60, blank is 29.
+src\task_ModeSelector.cpp, code is 79, comment is 45, blank is 20.
+src\task_ScreenUART.cpp, code is 221, comment is 87, blank is 51.
+src\task_UpdateIO.cpp, code is 120, comment is 89, blank is 22.
+src\tasks_Bluetooth.cpp, code is 209, comment is 37, blank is 23.
+===============================================================================

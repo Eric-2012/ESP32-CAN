@@ -1,0 +1,700 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 7
+Title "ECU Gen2"
+Date "2021-04-05"
+Rev "2.3.3.3"
+Comp "Evoke Motorcycles"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1350 2550 1500 1150
+U 5CF10914
+F0 "Power Supply" 50
+F1 "Power Supply.sch" 50
+F2 "12V_1" I L 1350 2850 50 
+F3 "12V_2" I L 1350 2975 50 
+$EndSheet
+$Sheet
+S 1350 4050 1500 900 
+U 5CF89E49
+F0 "CAN CONTROLLER" 50
+F1 "CAN CONTROLLER.sch" 50
+F2 "CAN_H" O L 1350 4150 50 
+F3 "CAN_L" O L 1350 4250 50 
+F4 "CAN_MOSI" I R 2850 4150 50 
+F5 "CAN_MISO" O R 2850 4250 50 
+F6 "CAN_CS" I R 2850 4450 50 
+F7 "CAN_SCK" I R 2850 4350 50 
+F8 "Reset_pin" I L 1350 4505 50 
+$EndSheet
+Wire Wire Line
+	2850 4150 4900 4150
+Wire Wire Line
+	4900 4250 2850 4250
+Wire Wire Line
+	2850 4350 4900 4350
+Wire Wire Line
+	4900 4450 2850 4450
+$Sheet
+S 1350 5250 1500 750 
+U 5CFF775D
+F0 "SPIFLASH_MPU9250" 50
+F1 "SPIFLASH_MPU9250.sch" 50
+F2 "MOSI" I R 2850 5350 50 
+F3 "MISO" O R 2850 5450 50 
+F4 "SCK" I R 2850 5550 50 
+F5 "MPU9250_CS" I R 2850 5650 50 
+F6 "SPI_FLASH_CS" I R 2850 5750 50 
+F7 "MPU9250_INT" I R 2850 5850 50 
+$EndSheet
+Wire Wire Line
+	2850 5350 3250 5350
+Wire Wire Line
+	3250 5350 3250 4700
+Wire Wire Line
+	3250 4700 4900 4700
+Wire Wire Line
+	4900 4800 3300 4800
+Wire Wire Line
+	3300 4800 3300 5450
+Wire Wire Line
+	3300 5450 2850 5450
+Wire Wire Line
+	2850 5550 3350 5550
+Wire Wire Line
+	3350 5550 3350 4900
+Wire Wire Line
+	3350 4900 4900 4900
+Wire Wire Line
+	4900 5000 3400 5000
+Wire Wire Line
+	3400 5000 3400 5650
+Wire Wire Line
+	3400 5650 2850 5650
+Wire Wire Line
+	2850 5750 3450 5750
+Wire Wire Line
+	3450 5750 3450 5100
+Wire Wire Line
+	3450 5100 4900 5100
+$Sheet
+S 7850 4500 1200 800 
+U 5D069337
+F0 "FRAM_EEPROM_RTC" 50
+F1 "FRAM_EEPROM.sch" 50
+F2 "I2C_SDA" B L 7850 4900 50 
+F3 "I2C_SCL" B L 7850 5000 50 
+F4 "WP_FRAM_pin" I L 7850 4780 50 
+$EndSheet
+Wire Wire Line
+	6800 4900 7000 4900
+Wire Wire Line
+	6800 5000 7150 5000
+$Comp
+L ESP32-CAN-rescue:MountingHole-Mechanical H1
+U 1 1 5D091C0F
+P 7050 6100
+F 0 "H1" H 7150 6146 50  0000 L CNN
+F 1 "MountingHole" H 7150 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7050 6100 50  0001 C CNN
+F 3 "~" H 7050 6100 50  0001 C CNN
+	1    7050 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-CAN-rescue:MountingHole-Mechanical H4
+U 1 1 5D091EC2
+P 7850 6350
+F 0 "H4" H 7950 6396 50  0000 L CNN
+F 1 "MountingHole" H 7950 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7850 6350 50  0001 C CNN
+F 3 "~" H 7850 6350 50  0001 C CNN
+	1    7850 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-CAN-rescue:MountingHole-Mechanical H3
+U 1 1 5D0922B1
+P 7850 6100
+F 0 "H3" H 7950 6146 50  0000 L CNN
+F 1 "MountingHole" H 7950 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7850 6100 50  0001 C CNN
+F 3 "~" H 7850 6100 50  0001 C CNN
+	1    7850 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-CAN-rescue:+5V-power #PWR07
+U 1 1 5D095AC4
+P 9900 6050
+F 0 "#PWR07" H 9900 5900 50  0001 C CNN
+F 1 "+5V" H 9915 6223 50  0000 C CNN
+F 2 "" H 9900 6050 50  0001 C CNN
+F 3 "" H 9900 6050 50  0001 C CNN
+	1    9900 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-CAN-rescue:PWR_FLAG-power #FLG02
+U 1 1 5D096AFC
+P 9900 6300
+F 0 "#FLG02" H 9900 6375 50  0001 C CNN
+F 1 "PWR_FLAG" H 9900 6473 50  0000 C CNN
+F 2 "" H 9900 6300 50  0001 C CNN
+F 3 "~" H 9900 6300 50  0001 C CNN
+	1    9900 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9900 6050 9900 6300
+Wire Wire Line
+	7350 2000 7150 2000
+Connection ~ 7150 5000
+Wire Wire Line
+	7150 5000 7850 5000
+Connection ~ 7000 4900
+Wire Wire Line
+	7000 4900 7850 4900
+Wire Wire Line
+	4050 6550 4375 6550
+Wire Wire Line
+	4375 6650 4050 6650
+Wire Wire Line
+	4375 6750 4050 6750
+Wire Wire Line
+	3550 6550 3100 6550
+Wire Wire Line
+	3550 6450 3100 6450
+Wire Wire Line
+	3550 6350 3100 6350
+Wire Wire Line
+	3100 6250 3550 6250
+Text Label 9750 1750 0    50   ~ 0
+R1
+Text Label 9750 1850 0    50   ~ 0
+R2
+Text Label 3250 6250 2    50   ~ 0
+RD1
+Text Label 3100 6350 0    50   ~ 0
+RD2
+Text Label 3100 6450 0    50   ~ 0
+RD3
+Text Label 3100 6550 0    50   ~ 0
+RD4
+Text Label 3100 7050 0    50   ~ 0
+RD6
+Text Label 4240 7150 0    50   ~ 0
+R1
+Text Label 3100 6850 0    50   ~ 0
+RD5
+Text Label 4245 7050 0    50   ~ 0
+R2
+Text Label 4375 6650 2    50   ~ 0
+RD8
+Text Label 4375 6750 2    50   ~ 0
+RD9
+$Comp
+L ESP32-CAN-rescue:GND-power #PWR?
+U 1 1 5CF1A49A
+P 6175 7250
+AR Path="/5CE8F158/5CF1A49A" Ref="#PWR?"  Part="1" 
+AR Path="/5CF1A49A" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 6175 7000 50  0001 C CNN
+F 1 "GND" H 6180 7077 50  0000 C CNN
+F 2 "" H 6175 7250 50  0001 C CNN
+F 3 "" H 6175 7250 50  0001 C CNN
+	1    6175 7250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 7250 6025 7250
+Wire Wire Line
+	900  4150 1350 4150
+Wire Wire Line
+	900  4250 1350 4250
+Text Label 900  4150 0    50   ~ 0
+CAN1_H
+Text Label 900  4250 0    50   ~ 0
+CAN1_L
+Wire Wire Line
+	7300 3100 6800 3100
+Wire Wire Line
+	7300 3200 6800 3200
+Wire Wire Line
+	7300 3400 6800 3400
+Wire Wire Line
+	7300 3500 6800 3500
+Text Label 7300 3100 0    50   ~ 0
+TXD2_5V
+Text Label 7300 3200 0    50   ~ 0
+RXD2_5V
+Text Label 7300 3400 0    50   ~ 0
+RXD1_5V
+Text Label 7300 3500 0    50   ~ 0
+TXD1_5V
+Wire Wire Line
+	5225 6650 5525 6650
+Wire Wire Line
+	5225 6750 5525 6750
+Text Label 5225 7050 2    50   ~ 0
+TXD1_5V
+Text Label 5225 6750 2    50   ~ 0
+TXD2_5V
+Wire Wire Line
+	6325 6550 6025 6550
+Wire Wire Line
+	6325 6450 6025 6450
+Wire Wire Line
+	4450 3550 4900 3550
+Wire Wire Line
+	4450 3650 4900 3650
+Text Label 4450 3550 0    50   ~ 0
+USB+
+Text Label 4450 3650 0    50   ~ 0
+USB-
+Text Label 6325 6550 2    50   ~ 0
+USB+
+Text Label 6325 6450 2    50   ~ 0
+USB-
+Wire Wire Line
+	6325 6950 6025 6950
+Wire Wire Line
+	6325 6850 6025 6850
+Text Label 6325 6950 2    50   ~ 0
+CAN1_H
+Text Label 6325 6850 2    50   ~ 0
+CAN1_L
+NoConn ~ 6025 7150
+Wire Wire Line
+	9750 1850 9500 1850
+Wire Wire Line
+	9750 1750 9500 1750
+Wire Bus Line
+	9500 2000 9950 2000
+Wire Bus Line
+	9950 2000 9950 5850
+Text Label 9550 2000 0    50   ~ 0
+RD[1...9]
+$Comp
+L ESP32-CAN-rescue:Conn_02x09_Top_Bottom-Connector_Generic J2
+U 1 1 5CF3FBDA
+P 5725 6850
+F 0 "J2" H 5775 7467 50  0000 C CNN
+F 1 "2x9_pin_Connector" H 5775 7376 50  0000 C CNN
+F 2 "Automotive-Connector:3118A0312" H 5725 6850 50  0001 C CNN
+F 3 "~" H 5725 6850 50  0001 C CNN
+	1    5725 6850
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	3000 6150 3100 6250
+Entry Wire Line
+	3000 6250 3100 6350
+Entry Wire Line
+	3000 6350 3100 6450
+Entry Wire Line
+	3000 6450 3100 6550
+Wire Wire Line
+	3550 6650 3500 6650
+Wire Wire Line
+	3500 6650 3500 6750
+Wire Wire Line
+	3500 6750 3550 6750
+Wire Wire Line
+	3500 6650 3400 6650
+Connection ~ 3500 6650
+$Comp
+L ESP32-CAN-rescue:GND-power #PWR?
+U 1 1 5CFD918A
+P 3400 6650
+AR Path="/5CE8F158/5CFD918A" Ref="#PWR?"  Part="1" 
+AR Path="/5CFD918A" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 3400 6400 50  0001 C CNN
+F 1 "GND" H 3405 6477 50  0000 C CNN
+F 2 "" H 3400 6650 50  0001 C CNN
+F 3 "" H 3400 6650 50  0001 C CNN
+	1    3400 6650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3100 6850 3550 6850
+Entry Wire Line
+	3000 6750 3100 6850
+Entry Wire Line
+	3000 6950 3100 7050
+Entry Wire Line
+	3000 7150 3100 7250
+Wire Wire Line
+	4050 6250 4200 6250
+Entry Wire Line
+	6325 7050 6425 7150
+Text Label 5225 6850 2    50   ~ 0
+IN5V_2
+Text Label 5225 6950 2    50   ~ 0
+IN5V_3
+Entry Wire Line
+	4850 6850 4950 6950
+$Comp
+L ESP32-CAN-rescue:PWR_FLAG-power #FLG01
+U 1 1 5D2D3DED
+P 9175 6150
+F 0 "#FLG01" H 9175 6225 50  0001 C CNN
+F 1 "PWR_FLAG" H 9175 6323 50  0000 C CNN
+F 2 "" H 9175 6150 50  0001 C CNN
+F 3 "~" H 9175 6150 50  0001 C CNN
+	1    9175 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-CAN-rescue:GND-power #PWR04
+U 1 1 5D2D6AFC
+P 9175 6300
+F 0 "#PWR04" H 9175 6050 50  0001 C CNN
+F 1 "GND" H 9180 6127 50  0000 C CNN
+F 2 "" H 9175 6300 50  0001 C CNN
+F 3 "" H 9175 6300 50  0001 C CNN
+	1    9175 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9175 6300 9175 6150
+Wire Wire Line
+	4200 6000 4200 6250
+Wire Wire Line
+	750  6300 2925 6300
+Wire Wire Line
+	2925 6300 2925 6000
+Wire Wire Line
+	2925 6000 4200 6000
+Wire Wire Line
+	750  2850 750  6300
+Wire Wire Line
+	750  2850 1350 2850
+Entry Wire Line
+	4375 6650 4475 6750
+Entry Wire Line
+	4375 6750 4475 6850
+Wire Wire Line
+	4525 5925 2875 5925
+Wire Wire Line
+	2875 5925 2875 6225
+Wire Wire Line
+	2875 6225 800  6225
+Wire Wire Line
+	800  6225 800  2975
+Wire Wire Line
+	800  2975 1350 2975
+Text Label 4200 6250 0    50   ~ 0
+12V_IN
+Text Label 4525 6850 0    50   ~ 0
+CH12V
+Entry Wire Line
+	4850 6750 4950 6850
+Entry Wire Line
+	4850 6450 4950 6550
+Text Label 5225 6650 2    50   ~ 0
+RXD2_5V
+Text Label 6100 7050 0    50   ~ 0
+IN5V_1
+Wire Wire Line
+	6325 7050 6025 7050
+Wire Wire Line
+	4950 6950 5525 6950
+Wire Wire Line
+	4950 6850 5525 6850
+Wire Wire Line
+	4950 6550 5525 6550
+Text Label 5225 6550 2    50   ~ 0
+IN5V_4
+Wire Bus Line
+	6425 7150 6425 7675
+Wire Bus Line
+	4850 7675 6425 7675
+Wire Bus Line
+	650  7675 3000 7675
+Connection ~ 4850 7675
+Wire Bus Line
+	650  2325 650  7675
+Text Label 6475 2325 0    50   ~ 0
+IN5V_[1...12]
+Wire Bus Line
+	7250 2275 7350 2275
+Wire Bus Line
+	650  2325 7250 2325
+Wire Bus Line
+	7250 2325 7250 2275
+Wire Wire Line
+	7000 1850 7350 1850
+Wire Wire Line
+	7000 1850 7000 4900
+Wire Wire Line
+	7150 2000 7150 5000
+Wire Wire Line
+	6825 5750 7100 5750
+Wire Wire Line
+	7100 5750 7100 5175
+Wire Wire Line
+	7100 5175 6800 5175
+Wire Wire Line
+	6800 5275 7000 5275
+Wire Wire Line
+	7000 5275 7000 5675
+Wire Wire Line
+	7000 5675 6725 5675
+Wire Wire Line
+	5525 6450 4950 6450
+Entry Wire Line
+	4850 6350 4950 6450
+Text Label 5225 6450 2    50   ~ 0
+IN5V_5
+Connection ~ 3000 7675
+Wire Wire Line
+	3550 7350 3100 7350
+Wire Wire Line
+	3550 7450 3100 7450
+Entry Wire Line
+	3000 7250 3100 7350
+Entry Wire Line
+	3000 7350 3100 7450
+Wire Bus Line
+	4475 7675 4850 7675
+Connection ~ 4475 7675
+Wire Bus Line
+	3000 7675 4475 7675
+Wire Wire Line
+	4375 7450 4050 7450
+Wire Wire Line
+	4375 7350 4050 7350
+Wire Wire Line
+	4050 7250 4375 7250
+Entry Wire Line
+	4375 7450 4475 7550
+Entry Wire Line
+	4375 7350 4475 7450
+Entry Wire Line
+	4375 7250 4475 7350
+Wire Bus Line
+	4475 7350 4675 7350
+Wire Wire Line
+	4050 6350 4575 6350
+Entry Wire Line
+	4575 6350 4675 6450
+Entry Wire Line
+	4575 6450 4675 6550
+Text Label 3100 7350 0    50   ~ 0
+IN5V_6
+Text Label 3100 7450 0    50   ~ 0
+IN5V_7
+Text Label 4125 7450 0    50   ~ 0
+IN5V_8
+Text Label 4125 7350 0    50   ~ 0
+IN5V_9
+Text Label 4150 6350 0    50   ~ 0
+IN5V_12
+Wire Wire Line
+	4900 5225 3500 5225
+Wire Wire Line
+	3500 5225 3500 5825
+Wire Wire Line
+	3500 5825 2950 5825
+Wire Wire Line
+	2950 5825 2950 5850
+Wire Wire Line
+	2950 5850 2850 5850
+Wire Wire Line
+	6725 6750 6025 6750
+Wire Wire Line
+	6725 5675 6725 6750
+Wire Wire Line
+	6025 6650 6825 6650
+Wire Wire Line
+	6825 5750 6825 6650
+Text Label 4375 6550 2    50   ~ 0
+RD7
+Wire Wire Line
+	3100 7050 3550 7050
+Wire Wire Line
+	7350 2630 6920 2630
+Wire Wire Line
+	6920 2630 6920 3000
+Wire Wire Line
+	6920 3000 6800 3000
+$Sheet
+S 7350 1550 2150 1175
+U 5CE8B841
+F0 "MCP23017-ULN2003" 50
+F1 "I2C Expander.sch" 50
+F2 "I2C_SDA" B L 7350 1850 50 
+F3 "I2C_SCL" B L 7350 2000 50 
+F4 "R1" O R 9500 1750 50 
+F5 "R2" O R 9500 1850 50 
+F6 "RD[1...9]" O R 9500 2000 50 
+F7 "IN5V_[1...12]" I L 7350 2275 50 
+F8 "IO_EX_INT" I L 7350 2630 50 
+F9 "RC" I R 9500 2275 50 
+F10 "Reset_pin" I R 9500 2500 50 
+$EndSheet
+Wire Wire Line
+	1350 4505 1160 4505
+Wire Wire Line
+	6800 3785 7345 3785
+Text Label 7345 3785 0    50   ~ 0
+IC_RESET
+Text Label 1160 4505 2    50   ~ 0
+IC_RESET
+Wire Wire Line
+	5225 7050 5525 7050
+Wire Wire Line
+	5225 7150 5525 7150
+Connection ~ 4475 5850
+Wire Bus Line
+	4475 5850 9950 5850
+Wire Bus Line
+	3000 5850 4475 5850
+Wire Wire Line
+	4525 5925 4525 6850
+Wire Wire Line
+	3100 7250 3550 7250
+Text Label 3100 7250 0    50   ~ 0
+IN5V_11
+NoConn ~ 4575 6450
+$Sheet
+S 4900 2950 1900 2400
+U 5CE8F158
+F0 "ESP32" 50
+F1 "ESP32.sch" 50
+F2 "RXD2_5V" I R 6800 3200 50 
+F3 "TXD2_5V" O R 6800 3100 50 
+F4 "RXD1_5V" I R 6800 3400 50 
+F5 "TXD1_5V" O R 6800 3500 50 
+F6 "VSPI_CS1" O L 4900 4450 50 
+F7 "HSPI_MOSI" O L 4900 4700 50 
+F8 "HSPI_CLK" O L 4900 4900 50 
+F9 "HSPI_MISO" I L 4900 4800 50 
+F10 "VSPI_MOSI" O L 4900 4150 50 
+F11 "VSPI_MISO" I L 4900 4250 50 
+F12 "VSPI_CLK" O L 4900 4350 50 
+F13 "HSPI_CS1" I L 4900 5000 50 
+F14 "HSPI_CS2" I L 4900 5100 50 
+F15 "I2C_SDA" B R 6800 4900 50 
+F16 "I2C_SCL" B R 6800 5000 50 
+F17 "USB+" B L 4900 3550 50 
+F18 "USB-" B L 4900 3650 50 
+F19 "CAN_H" O R 6800 5175 50 
+F20 "CAN_L" O R 6800 5275 50 
+F21 "MPU9250_INT" I L 4900 5225 50 
+F22 "IO_EX_INT" I R 6800 3000 50 
+F23 "Reset_pin" I R 6800 3785 50 
+F24 "SpeedSensor" I R 6800 3975 50 
+F25 "WP_FRAM_pin" O R 6800 4780 50 
+$EndSheet
+Text Label 7350 3975 0    50   ~ 0
+SpeedSensor
+Wire Wire Line
+	6800 3975 7350 3975
+$Comp
+L ESP32-CAN-rescue:Conn_02x13_Top_Bottom-Connector_Generic J1
+U 1 1 5CF3FA5E
+P 3750 6850
+F 0 "J1" H 3800 7667 50  0000 C CNN
+F 1 "2x13_pin_Connector" H 3800 7576 50  0000 C CNN
+F 2 "Automotive-Connector:3126A0312" H 3750 6850 50  0001 C CNN
+F 3 "~" H 3750 6850 50  0001 C CNN
+	1    3750 6850
+	1    0    0    -1  
+$EndComp
+Text Label 3075 7150 0    50   ~ 0
+SpeedSensor
+Wire Wire Line
+	3550 7150 3075 7150
+NoConn ~ 4050 6450
+Entry Wire Line
+	4375 6550 4475 6650
+Text Label 4125 7250 0    50   ~ 0
+IN5V_10
+Wire Wire Line
+	4050 7150 4240 7150
+Wire Wire Line
+	4050 7050 4245 7050
+NoConn ~ 3550 6950
+Text Label 9745 2275 0    50   ~ 0
+RC
+Wire Wire Line
+	9500 2275 9745 2275
+Text Label 4250 6950 0    50   ~ 0
+RC
+Wire Wire Line
+	4050 6950 4250 6950
+$Comp
+L ESP32-CAN-rescue:Polyfuse-Device F?
+U 1 1 5CF1D37F
+P 5375 7250
+AR Path="/5CF10914/5CF1D37F" Ref="F?"  Part="1" 
+AR Path="/5CF1D37F" Ref="F1"  Part="1" 
+F 0 "F1" V 5550 7250 50  0000 C CNN
+F 1 "0ZCF0100AF2A " V 5475 7250 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric" H 5425 7050 50  0001 L CNN
+F 3 "~" H 5375 7250 50  0001 C CNN
+	1    5375 7250
+	0    1    1    0   
+$EndComp
+Text Label 5225 7150 2    50   ~ 0
+RXD1_5V
+$Comp
+L ESP32-CAN-rescue:+5V-power #PWR02
+U 1 1 5CF1C5E9
+P 5225 7570
+F 0 "#PWR02" H 5225 7420 50  0001 C CNN
+F 1 "+5V" H 5240 7743 50  0000 C CNN
+F 2 "" H 5225 7570 50  0001 C CNN
+F 3 "" H 5225 7570 50  0001 C CNN
+	1    5225 7570
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ESP32-CAN-rescue:D-Device D?
+U 1 1 606B28B8
+P 5375 7570
+AR Path="/5CF10914/606B28B8" Ref="D?"  Part="1" 
+AR Path="/606B28B8" Ref="D8"  Part="1" 
+F 0 "D8" H 5375 7354 50  0000 C CNN
+F 1 "B240A" H 5375 7445 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 5375 7570 50  0001 C CNN
+F 3 "~" H 5375 7570 50  0001 C CNN
+	1    5375 7570
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5525 7570 5525 7420
+Wire Wire Line
+	5525 7420 5225 7420
+Wire Wire Line
+	5225 7420 5225 7250
+Text Label 9745 2500 0    50   ~ 0
+IC_RESET
+Wire Wire Line
+	9500 2500 9745 2500
+Wire Wire Line
+	6800 4780 7850 4780
+Wire Wire Line
+	4050 6850 4525 6850
+Wire Bus Line
+	3000 7200 3000 7675
+Wire Bus Line
+	4475 7350 4475 7675
+Wire Bus Line
+	4675 6350 4675 7350
+Wire Bus Line
+	4475 5850 4475 7250
+Wire Bus Line
+	4850 6350 4850 7675
+Wire Bus Line
+	3000 5850 3000 7150
+$EndSCHEMATC

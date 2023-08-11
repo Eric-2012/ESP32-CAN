@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS1340Z-33+
+D Maxim DS1340Z-33+ Real Time Clock  Battery Backup, Calendar, Clock 8-Pin SOIC
+K
+F https://componentsearchengine.com/Datasheets/2/DS1340Z-33+.pdf
+$ENDCMP
+#
+#End Doc Library

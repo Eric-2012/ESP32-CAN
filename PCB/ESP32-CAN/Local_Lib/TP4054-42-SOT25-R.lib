@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TP4054-42-SOT25-R
+#
+DEF TP4054-42-SOT25-R IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TP4054-42-SOT25-R" 1050 200 50 H V L CNN
+F2 "SOT95P280X100-5N" 1050 100 50 H I L CNN
+F3 "http://images.100y.com.tw/pdf_file/38-TP-TP4054x.pdf" 1050 0 50 H I L CNN
+F4 "Standalone Linear Li-ion Battery Charger with Thermal Regulation, SOT-23-5" 1050 -100 50 H I L CNN "Description"
+F5 "1" 1050 -200 50 H I L CNN "Height"
+F6 "TOP POWER" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TP4054-42-SOT25-R" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 f
+X ~CHRG 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X BAT 3 0 -200 200 R 50 50 0 0 P
+X VCC 4 1200 0 200 L 50 50 0 0 P
+X PROG 5 1200 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

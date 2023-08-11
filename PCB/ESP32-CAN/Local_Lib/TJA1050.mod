@@ -1,0 +1,140 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SOT96-1
+$EndINDEX
+$MODULE SOT96-1
+Po 0 0 0 15 00000000 00000000 ~~
+Li SOT96-1
+Cd <li><b>SOT96-1</b><hr><ul><li>SO8: plastic small outline package; 8 leads; body width 3.9 mm<li><u>JEDEC</u>: MS-012<li><u>IEC</u>: 076E03</ul>
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 5 -0.99 0.787402 0.787402 0 0.05 N V 21 "SOT96-1"
+T1 5.5 0.5 0.787402 0.787402 0 0.05 N V 21 "VAL**"
+DS 2.4 -1.8 2.4 1.4 0.2032 21
+DS 2.4 1.4 2.4 1.9 0.2032 27
+DS 2.4 1.9 -2.4 1.9 0.2032 27
+DS -2.4 1.9 -2.4 1.4 0.2032 27
+DS -2.4 1.4 -2.4 -1.8 0.2032 21
+DS -2.4 -1.9 2.4 -1.9 0.2032 27
+DS 2.4 1.4 -2.4 1.4 0.2032 21
+DP 0 0 0 0 4 0 27
+Dl -2.1501 2
+Dl -1.6599 2
+Dl -1.6599 3.1001
+Dl -2.1501 3.1001
+DP 0 0 0 0 4 0 27
+Dl -0.8801 2
+Dl -0.3899 2
+Dl -0.3899 3.1001
+Dl -0.8801 3.1001
+DP 0 0 0 0 4 0 27
+Dl 0.3899 2
+Dl 0.8801 2
+Dl 0.8801 3.1001
+Dl 0.3899 3.1001
+DP 0 0 0 0 4 0 27
+Dl 1.6599 2
+Dl 2.1501 2
+Dl 2.1501 3.1001
+Dl 1.6599 3.1001
+DP 0 0 0 0 4 0 27
+Dl 1.6599 -3.1001
+Dl 2.1501 -3.1001
+Dl 2.1501 -2
+Dl 1.6599 -2
+DP 0 0 0 0 4 0 27
+Dl 0.3899 -3.1001
+Dl 0.8801 -3.1001
+Dl 0.8801 -2
+Dl 0.3899 -2
+DP 0 0 0 0 4 0 27
+Dl -0.8801 -3.1001
+Dl -0.3899 -3.1001
+Dl -0.3899 -2
+Dl -0.8801 -2
+DP 0 0 0 0 4 0 27
+Dl -2.1501 -3.1001
+Dl -1.6599 -3.1001
+Dl -1.6599 -2
+Dl -2.1501 -2
+DS -2.4 1.4 -2.4 -1.9 0.2032 27
+DS 2.4 -1.9 2.4 1.4 0.2032 27
+DS -2.4 1.4 -2.4 1.8 0.2032 21
+DS 2.4 1.4 2.4 1.8 0.2032 21
+DS -1.397 1.9 -1.143 1.9 0.2032 21
+DS -0.127 1.9 0.127 1.9 0.2032 21
+DS 1.143 1.9 1.397 1.9 0.2032 21
+DS 1.143 -1.91 1.397 -1.91 0.2032 21
+DS -0.127 -1.91 0.127 -1.91 0.2032 21
+DS -1.397 -1.91 -1.143 -1.91 0.2032 21
+DC -1.905 0.889 -1.705 0.889 0 21
+$PAD
+Sh "1" R 0.6 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.905 2.65
+$EndPAD
+$PAD
+Sh "2" R 0.6 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.635 2.65
+$EndPAD
+$PAD
+Sh "3" R 0.6 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.635 2.65
+$EndPAD
+$PAD
+Sh "4" R 0.6 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.905 2.65
+$EndPAD
+$PAD
+Sh "5" R 0.6 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.905 -2.65
+$EndPAD
+$PAD
+Sh "6" R 0.6 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.635 -2.65
+$EndPAD
+$PAD
+Sh "7" R 0.6 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.635 -2.65
+$EndPAD
+$PAD
+Sh "8" R 0.6 1.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.905 -2.65
+$EndPAD
+$EndMODULE SOT96-1

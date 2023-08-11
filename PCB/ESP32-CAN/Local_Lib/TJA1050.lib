@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TJA1050
+#
+DEF TJA1050 U 0 40 Y Y 1 L N
+F0 "U" -400 400 50 H V L BNN
+F1 "TJA1050" -400 -400 50 H V L BNN
+F2 "SOT96-1" 0 0 50 H I L BNN
+F3 "TJA1050" 0 0 50 H I L BNN
+F4 "SOIC-8 NXP USA" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "" 0 0 50 H I L BNN
+F7 "NXP USA" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 0 300 -400 300 N
+P 2 0 0 10 -400 300 -400 -300 N
+P 2 0 0 10 -400 -300 400 -300 N
+P 2 0 0 10 400 -300 400 300 N
+P 2 0 0 10 400 300 0 300 N
+X TXD 1 -500 200 100 R 40 40 0 0 O 
+X S 8 -500 -100 100 R 40 40 0 0 W 
+X RXD 4 -500 0 100 R 40 40 0 0 B 
+X GND 2 0 -400 100 U 40 40 0 0 B 
+X VCC 3 0 400 100 D 40 40 0 0 B 
+X CANH 7 500 200 100 L 40 40 0 0 B 
+X CANL 6 500 -200 100 L 40 40 0 0 B 
+X VREF 5 -500 -200 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

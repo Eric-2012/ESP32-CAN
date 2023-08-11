@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ME6211C33M5G
+#
+DEF ME6211C33M5G IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ME6211C33M5G" 950 200 50 H V L CNN
+F2 "SOT95P282X145-5N" 950 100 50 H I L CNN
+F3 "http://xinhuidianzi.com.cn/UploadSysFiles/files/LDO-series/ME6211-Series_E15.0.pdf" 950 0 50 H I L CNN
+F4 "High Speed LDO Regulators, High PSRR, Low noise, ME6211 Series" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "Microne" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ME6211C33M5G" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+X VIN 1 0 0 200 R 50 50 0 0 P
+X VSS 2 0 -100 200 R 50 50 0 0 P
+X CE 3 0 -200 200 R 50 50 0 0 P
+X NC 4 1100 0 200 L 50 50 0 0 P
+X VOUT 5 1100 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

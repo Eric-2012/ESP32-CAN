@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25M512JVEIQ
+D Multichip Packages spiFlash, 512M-bit, 4Kb Uniform Sector
+F https://www.winbond.com/resource-files/w25m512jv%20revc%2001062017.pdf
+$ENDCMP
+#
+#End Doc Library

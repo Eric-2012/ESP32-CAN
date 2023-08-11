@@ -1,0 +1,50 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SOT23-3
+$EndINDEX
+$MODULE SOT23-3
+Po 0 0 0 15 00000000 00000000 ~~
+Li SOT23-3
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.01271 -1.98288 0.320272 0.320272 0 0.05 N V 21 "SOT23-3"
+T1 0 -0.012709 0.32023 0.32023 0 0.05 N V 21 "VAL**"
+DS 1.4224 -0.6604 1.4224 0.6604 0.1524 27
+DS 1.4224 0.6604 -1.4224 0.6604 0.1524 27
+DS -1.4224 0.6604 -1.4224 -0.6604 0.1524 27
+DS -1.4224 -0.6604 1.4224 -0.6604 0.1524 27
+DS -0.8 -0.7 -1.4 -0.7 0.2032 21
+DS -1.4 -0.7 -1.4 0.1 0.2032 21
+DS 0.8 -0.7 1.4 -0.7 0.2032 21
+DS 1.4 -0.7 1.4 0.1 0.2032 21
+$PAD
+Sh "3" R 0.8 0.9 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -1.1
+$EndPAD
+$PAD
+Sh "2" R 0.8 0.9 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.95 1
+$EndPAD
+$PAD
+Sh "1" R 0.8 0.9 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.95 1
+$EndPAD
+$EndMODULE SOT23-3

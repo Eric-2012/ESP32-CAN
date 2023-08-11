@@ -1,0 +1,29 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "*.tcc": "cpp",
+        "utility": "cpp",
+        "random": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "numeric": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "exception": "cpp",
+        "fstream": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "stdexcept": "cpp"
+    },
+    "python.pythonPath": "C:\\Python27\\python.exe",
+    "cmake.configureOnOpen": false
+}

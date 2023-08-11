@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TP4056
+#
+DEF TP4056 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "TP4056" 1250 200 50 H V L CNN
+F2 "SOIC127P600X175-9N" 1250 100 50 H I L CNN
+F3 "https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf" 1250 0 50 H I L CNN
+F4 "1A Standalone Linear Li-lon Battery Charger, SOP-8" 1250 -100 50 H I L CNN "Description"
+F5 "1.75" 1250 -200 50 H I L CNN "Height"
+F6 "NanJing Top Power" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TP4056" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -600 200 -600 200 100 f
+X TEMP1 1 0 0 200 R 50 50 0 0 B
+X PROG2 2 0 -100 200 R 50 50 0 0 B
+X GND_3 3 0 -200 200 R 50 50 0 0 B
+X VCC4 4 0 -300 200 R 50 50 0 0 B
+X BAT 5 1400 -300 200 L 50 50 0 0 B
+X ~STDBY 6 1400 -200 200 L 50 50 0 0 B
+X ~CHRG 7 1400 -100 200 L 50 50 0 0 B
+X CE 8 1400 0 200 L 50 50 0 0 B
+X EP 9 700 -800 200 U 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library

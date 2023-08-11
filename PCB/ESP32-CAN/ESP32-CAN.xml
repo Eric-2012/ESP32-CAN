@@ -1,0 +1,4217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\For Developer\PCB\Gen2\Revision 3\ESP32-CAN\ESP32-CAN.sch</source>
+    <date>08/02/2021 15:11:15</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP32-CAN.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Supply/" tstamps="/5CF10914/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power Supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/CAN CONTROLLER/" tstamps="/5CF89E49/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CAN CONTROLLER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SPIFLASH_MPU9250.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/FRAM_EEPROM_RTC/" tstamps="/5D069337/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FRAM_EEPROM.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/MCP23017-ULN2003/" tstamps="/5CE8B841/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>I2C Expander.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/ESP32/" tstamps="/5CE8F158/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP32.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D091C0F</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D091EC2</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0922B1</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>2x9_pin_Connector</value>
+      <footprint>Automotive-Connector:3118A0312</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="Conn_02x09_Top_Bottom-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF3FBDA</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>0ZCF0100AF2A </value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="Polyfuse-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF1D37F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>2x13_pin_Connector</value>
+      <footprint>Automotive-Connector:3126A0312</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="Conn_02x13_Top_Bottom-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF3FA5E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TPS5420D</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps5420.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TPS5420D-Regulator_Switching" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF10A84</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF9540N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf9540n.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="IRF9540N-Transistor_FET" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF11EE9</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SMBJ20A</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF124B0</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>9.1V</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF18991</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF19FD7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF1EF21</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF1F036</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF2016A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF2124F</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>B340A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF227F5</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>SRN1060-330M</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN1060</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="L-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF2428A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100uF/25V</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF257AC</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF27420</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>3.24K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF27E97</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>B240A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D2F0663</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>B240A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D2F10ED</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4700uF/25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D2F3BDF</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>B240A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D134152</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>12V_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D0CB529</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>GND_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D0CD8D7</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>5V_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D0D1A09</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>0ZCF0100AF2A </value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="Polyfuse-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D0FA992</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM393</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm393-n.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="LM393-Comparator" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF811D1</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF91063</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CF91069</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>6K8</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CFA16AC</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CFA36AE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CFA7593</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CFA8DCB</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5CFCAC0C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100uF/25V</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D0C7D73</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>B240A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D028327</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>B240A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D02832E</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D035656</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D035B07</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D0398BF</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5D045258</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>MM1Z4V5</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5E47ACD8</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5E690144</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5E4CFF07</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Power Supply/" tstamps="/5CF10914/"/>
+      <tstamp>5E4D4FC4</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MCP2515-xSO</value>
+      <footprint>Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="MCP2515-xSO-Interface_CAN_LIN" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF8A0E7</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="Crystal-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF8AB2E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF8D99E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF8E077</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF8F02A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TJA1050</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/TJA1051.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TJA1051T-Interface_CAN_LIN" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF9155F</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF94495</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF98485</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>560pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF9CEA4</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>560pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF9E2F2</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF9E727</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CF9F79B</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>PESD1CAN</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Field4">Unavailable</field>
+        <field name="Field5">None</field>
+        <field name="Field6">ESD Suppressor TVS 23KV 3-Pin TO-236AB</field>
+        <field name="Field7">None</field>
+        <field name="Field8">Nexperia USA</field>
+      </fields>
+      <libsource lib="PESD1CAN" part="PESD1CAN" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5CFA8B2F</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>RXCAN_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D0F040A</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TXCAN_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D0F2734</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>CAN_SI_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D15955A</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>CAN_SO_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D159561</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>CAN_CS_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D15A90C</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>CAN_SCK_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D15BD61</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>CANL_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D1666D1</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>CANH_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D1666D8</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D02FF9C</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D06F058</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5D07AA13</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5E44C336</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CAN CONTROLLER/" tstamps="/5CF89E49/"/>
+      <tstamp>5E9F0AB3</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MPU-9250</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm</footprint>
+      <datasheet>https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="MPU-9250-Sensor_Motion" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5CFF79D7</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5CFFA558</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5CFFB624</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D000AF3</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D000F21</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D0017C0</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D002143</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D007B2E</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>W25M512JVEIQ</value>
+      <footprint>W25M512JVEIQ:SON127P800X600X80-9N-D</footprint>
+      <datasheet>https://www.winbond.com/resource-files/w25m512jv%20revc%2001062017.pdf</datasheet>
+      <fields>
+        <field name="Description">Multichip Packages spiFlash, 512M-bit, 4Kb Uniform Sector</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Winbond</field>
+        <field name="Manufacturer_Part_Number">W25M512JVEIQ</field>
+        <field name="Mouser Part Number">454-W25M512JVEIQ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=454-W25M512JVEIQ</field>
+      </fields>
+      <libsource lib="W25M512JVEIQ" part="W25M512JVEIQ" description="Multichip Packages spiFlash, 512M-bit, 4Kb Uniform Sector"/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D00C9E2</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D00F856</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>HSPI_SI_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D1719BB</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>HSPI_SO_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D1719C2</tstamp>
+    </comp>
+    <comp ref="TP16">
+      <value>MPU9520_CS_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D1719C9</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>HSPI_SCK_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D1719D0</tstamp>
+    </comp>
+    <comp ref="TP17">
+      <value>SPI_FLASH_CS_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5D17C756</tstamp>
+    </comp>
+    <comp ref="R93">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/SPIFLASH_MPU9250/" tstamps="/5CFF775D/"/>
+      <tstamp>5E45340F</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>MB85RC256V</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.cypress.com/file/41651/download</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="FM24C64B-Memory_NVRAM" description=""/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D06AE30</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D0A619D</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D0A61A4</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Battery:BatteryHolder_Keystone_3034_1x20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="Battery_Cell-Device" description=""/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D0A61D7</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D0CAD7D</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D0CAD85</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>220k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D0D5F3A</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>LTC4054</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://images.100y.com.tw/pdf_file/38-TP-TP4054x.pdf</datasheet>
+      <fields>
+        <field name="Description">Standalone Linear Li-ion Battery Charger with Thermal Regulation, SOT-23-5</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">TOP POWER</field>
+        <field name="Manufacturer_Part_Number">TP4054-42-SOT25-R</field>
+      </fields>
+      <libsource lib="TP4054-42-SOT25-R" part="TP4054-42-SOT25-R" description="Standalone Linear Li-ion Battery Charger with Thermal Regulation, SOT-23-5"/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D0295C0</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D0363A6</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5E6B8DC0</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D06EA85</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>DS3231M</value>
+      <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="DS3231M-Timer_RTC" description=""/>
+      <sheetpath names="/FRAM_EEPROM_RTC/" tstamps="/5D069337/"/>
+      <tstamp>5D0A61D0</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D1BD6E3</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D1BB5E4</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D1BB5DD</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D180DDB</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D17904A</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D176842</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D17424A</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D171E27</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D16FBCA</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D16DB20</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>1K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D167B15</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="1N4148-Diode" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5CED35C7</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="1N4148-Diode" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5CECC440</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>G5LE-1</value>
+      <footprint>Relay_THT:Relay_SPDT_Omron-G5LE-1</footprint>
+      <datasheet>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="G5LE-1-Relay" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5CECB82A</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>G5LE-1</value>
+      <footprint>Relay_THT:Relay_SPDT_Omron-G5LE-1</footprint>
+      <datasheet>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="G5LE-1-Relay" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5CEC6583</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5CEBB819</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>ULN2003</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/uln2003a.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="ULN2003-Transistor_Array" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5CE94819</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>ULN2003</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/uln2003a.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="ULN2003-Transistor_Array" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5CE8E452</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D03FA7D</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D03FAE1</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D03FAE8</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D03FB04</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D03FB42</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D03FB4F</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D03FB66</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D03FB73</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D03FB92</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D03FB99</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D07477D</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D07478D</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D074794</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D0747A8</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D0747B5</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D16A30B</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D16A31A</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D16A320</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D16A333</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D16A33F</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A09D</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A0B9</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A0BF</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A0C5</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A0E0</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A0E6</tstamp>
+    </comp>
+    <comp ref="R85">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A0EC</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A0F8</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A0FE</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A119</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A138</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A144</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A151</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A15D</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A173</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A17F</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A185</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A191</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A19B</tstamp>
+    </comp>
+    <comp ref="R84">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A1A1</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A1BA</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A1C9</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A1CF</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A1E2</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A1EE</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A201</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A210</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A216</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A229</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D21A235</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D919F18</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5E530EB4</tstamp>
+    </comp>
+    <comp ref="R92">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5E530FA2</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5E82F6B6</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5E82F878</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5E48D9D6</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5E5380C5</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>MCP23017_SO</value>
+      <footprint>Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="MCP23017_SO-Interface_Expansion" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5D2DC8DE</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5F02B6A4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5F02B68C</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5EECEC22</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5EECEC1C</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5EECEC16</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5EECEC03</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5F02B6AA</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5F02B69E</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>609D5A6B</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>609FC1BD</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>MCP23017_SO</value>
+      <footprint>Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="MCP23017_SO-Interface_Expansion" description=""/>
+      <sheetpath names="/MCP23017-ULN2003/" tstamps="/5CE8B841/"/>
+      <tstamp>5CE901A0</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>ESP32-WROOM-32D</value>
+      <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="ESP32-WROOM-32D-RF_Module" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CE8F5F3</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CE924D0</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CE92AD2</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CE93D1D</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CE9BB50</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CE9FE2E</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CEF9979</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CEF997F</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="BSS138-Transistor_FET" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF324F5</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF39B8E</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF3ECCD</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF5AF6E</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF5AF79</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="BSS138-Transistor_FET" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF70FB6</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF70FBC</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF70FC7</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="BSS138-Transistor_FET" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF70FE4</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF70FEA</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF70FF5</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>LM1117M-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="AMS1117-3.3-Regulator_Linear" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF678D1</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D34D97B</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D3B04CF</tstamp>
+    </comp>
+    <comp ref="TP18">
+      <value>3.3V_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0D43BA</tstamp>
+    </comp>
+    <comp ref="TP22">
+      <value>TXD0_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D015637</tstamp>
+    </comp>
+    <comp ref="TP20">
+      <value>RXD0_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D01563E</tstamp>
+    </comp>
+    <comp ref="TP21">
+      <value>RXD1_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0A1B54</tstamp>
+    </comp>
+    <comp ref="TP23">
+      <value>TXD1_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0A1C2E</tstamp>
+    </comp>
+    <comp ref="TP24">
+      <value>RXD2_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0DAF83</tstamp>
+    </comp>
+    <comp ref="TP25">
+      <value>TXD2_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0DAF8A</tstamp>
+    </comp>
+    <comp ref="TP19">
+      <value>IO0_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D181023</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D214051</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D213C43</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>UMH3N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMBT2222AYS.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="PMBT2222AYS-Transistor_BJT" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CED3DF7</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>CH340E</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.datasheet5.com/pdf-local-2195953</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="CH340G-Interface_USB" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CEA56DF</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>TJA1050</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/TJA1051.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TJA1051T-Interface_CAN_LIN" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0179C4</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0179D4</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>560pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0179E1</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>560pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0179E8</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0179EF</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0179F6</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>PESD1CAN</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Field4">Unavailable</field>
+        <field name="Field5">None</field>
+        <field name="Field6">ESD Suppressor TVS 23KV 3-Pin TO-236AB</field>
+        <field name="Field7">None</field>
+        <field name="Field8">Nexperia USA</field>
+      </fields>
+      <libsource lib="PESD1CAN" part="PESD1CAN" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D017A16</tstamp>
+    </comp>
+    <comp ref="TP29">
+      <value>CANL_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D017A30</tstamp>
+    </comp>
+    <comp ref="TP28">
+      <value>CANH_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D017A37</tstamp>
+    </comp>
+    <comp ref="TP31">
+      <value>CAN2_TXD_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CFEF09A</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0478DB</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D09ECC0</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>1.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D09ECC9</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0B2C4A</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5D0C422E</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>1500uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5E783899</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>1500uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5E7BAD63</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5E6EA4BA</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5E6EA68F</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>100uf</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5E79F63F</tstamp>
+    </comp>
+    <comp ref="C65">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5E7A0D40</tstamp>
+    </comp>
+    <comp ref="C66">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5E7A0FC2</tstamp>
+    </comp>
+    <comp ref="C67">
+      <value>100uf</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5E7A2F78</tstamp>
+    </comp>
+    <comp ref="C68">
+      <value>100uf</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5E9178D5</tstamp>
+    </comp>
+    <comp ref="R87">
+      <value>1k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5E8D4DD4</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5EC69CA9</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="BSS138-Transistor_FET" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF5AF68</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>SMAJ20A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_TVS-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>6020F838</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="C-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>6020F82C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>6020F819</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>6020F813</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>MM1Z3V0</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>6020F805</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF0138E</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="R-Device" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF01395</tstamp>
+    </comp>
+    <comp ref="TP27">
+      <value>SCL_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF3DB28</tstamp>
+    </comp>
+    <comp ref="TP26">
+      <value>SDA_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CF593AB</tstamp>
+    </comp>
+    <comp ref="TP30">
+      <value>CAN2_RXD_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ESP32-CAN-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/ESP32/" tstamps="/5CE8F158/"/>
+      <tstamp>5CFEF0A1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="1N4148-Diode">
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148-Diode</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="AMS1117-3.3-Regulator_Linear">
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="BSS138-Transistor_FET">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138-Transistor_FET</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="Battery_Cell-Device">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="CH340G-Interface_USB">
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH340G-Interface_USB</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="RXD" type="input"/>
+        <pin num="4" name="V3" type="passive"/>
+        <pin num="5" name="UD+" type="BiDi"/>
+        <pin num="6" name="UD-" type="BiDi"/>
+        <pin num="7" name="XI" type="input"/>
+        <pin num="8" name="XO" type="output"/>
+        <pin num="9" name="~CTS" type="input"/>
+        <pin num="10" name="~DSR" type="input"/>
+        <pin num="11" name="~RI" type="input"/>
+        <pin num="12" name="~DCD" type="input"/>
+        <pin num="13" name="~DTR" type="output"/>
+        <pin num="14" name="~RTS" type="output"/>
+        <pin num="15" name="R232" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="CP-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="Conn_02x09_Top_Bottom-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x09_Top_Bottom-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="Conn_02x13_Top_Bottom-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x13_Top_Bottom-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="Crystal-Device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="D-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="DS3231M-Timer_RTC">
+      <footprints>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231M-Timer_RTC</field>
+        <field name="Footprint">Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="32KHZ" type="openCol"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="~INT~/SQW" type="openCol"/>
+        <pin num="4" name="~RST" type="BiDi"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBAT" type="power_in"/>
+        <pin num="15" name="SDA" type="BiDi"/>
+        <pin num="16" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="D_Schottky-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="D_TVS-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="D_Zener-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="ESP32-WROOM-32D-RF_Module">
+      <footprints>
+        <fp>ESP32?WROOM?32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32D-RF_Module</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="BiDi"/>
+        <pin num="9" name="IO33" type="BiDi"/>
+        <pin num="10" name="IO25" type="BiDi"/>
+        <pin num="11" name="IO26" type="BiDi"/>
+        <pin num="12" name="IO27" type="BiDi"/>
+        <pin num="13" name="IO14" type="BiDi"/>
+        <pin num="14" name="IO12" type="BiDi"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="BiDi"/>
+        <pin num="17" name="SHD/SD2" type="BiDi"/>
+        <pin num="18" name="SWP/SD3" type="BiDi"/>
+        <pin num="19" name="SCS/CMD" type="BiDi"/>
+        <pin num="20" name="SCK/CLK" type="BiDi"/>
+        <pin num="21" name="SDO/SD0" type="BiDi"/>
+        <pin num="22" name="SDI/SD1" type="BiDi"/>
+        <pin num="23" name="IO15" type="BiDi"/>
+        <pin num="24" name="IO2" type="BiDi"/>
+        <pin num="25" name="IO0" type="BiDi"/>
+        <pin num="26" name="IO4" type="BiDi"/>
+        <pin num="27" name="IO16" type="BiDi"/>
+        <pin num="28" name="IO17" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO18" type="BiDi"/>
+        <pin num="31" name="IO19" type="BiDi"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="IO21" type="BiDi"/>
+        <pin num="34" name="RXD0/IO3" type="BiDi"/>
+        <pin num="35" name="TXD0/IO1" type="BiDi"/>
+        <pin num="36" name="IO22" type="BiDi"/>
+        <pin num="37" name="IO23" type="BiDi"/>
+        <pin num="38" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="FM24C64B-Memory_NVRAM">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FM24C64B-Memory_NVRAM</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="G5LE-1-Relay">
+      <footprints>
+        <fp>Relay*SPDT*Omron*G5LE?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G5LE-1-Relay</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_Omron-G5LE-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="IRF9540N-Transistor_FET">
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF9540N-Transistor_FET</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="L-Device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="LM393-Comparator">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>VSSOP*2.3x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM393-Comparator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openCol"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="_" type="input"/>
+        <pin num="7" name="~" type="openCol"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="MCP23017_SO-Interface_Expansion">
+      <footprints>
+        <fp>SOIC*7.5x17.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23017_SO-Interface_Expansion</field>
+        <field name="Footprint">Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="BiDi"/>
+        <pin num="2" name="GPB1" type="BiDi"/>
+        <pin num="3" name="GPB2" type="BiDi"/>
+        <pin num="4" name="GPB3" type="BiDi"/>
+        <pin num="5" name="GPB4" type="BiDi"/>
+        <pin num="6" name="GPB5" type="BiDi"/>
+        <pin num="7" name="GPB6" type="BiDi"/>
+        <pin num="8" name="GPB7" type="BiDi"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="NC" type="NotConnected"/>
+        <pin num="12" name="SCK" type="input"/>
+        <pin num="13" name="SDA" type="BiDi"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A2" type="input"/>
+        <pin num="18" name="~RESET~" type="input"/>
+        <pin num="19" name="INTB" type="3state"/>
+        <pin num="20" name="INTA" type="3state"/>
+        <pin num="21" name="GPA0" type="BiDi"/>
+        <pin num="22" name="GPA1" type="BiDi"/>
+        <pin num="23" name="GPA2" type="BiDi"/>
+        <pin num="24" name="GPA3" type="BiDi"/>
+        <pin num="25" name="GPA4" type="BiDi"/>
+        <pin num="26" name="GPA5" type="BiDi"/>
+        <pin num="27" name="GPA6" type="BiDi"/>
+        <pin num="28" name="GPA7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="MCP2515-xSO-Interface_CAN_LIN">
+      <footprints>
+        <fp>SOIC*7.5x11.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2515-xSO-Interface_CAN_LIN</field>
+        <field name="Footprint">Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXCAN" type="output"/>
+        <pin num="2" name="RXCAN" type="input"/>
+        <pin num="3" name="CLKOUT/SOF" type="output"/>
+        <pin num="4" name="~TX0RTS" type="input"/>
+        <pin num="5" name="~TX1RTS" type="input"/>
+        <pin num="6" name="~TX2RTS" type="input"/>
+        <pin num="7" name="OSC2" type="output"/>
+        <pin num="8" name="OSC1" type="input"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="~RX1BF" type="output"/>
+        <pin num="11" name="~RX0BF" type="output"/>
+        <pin num="12" name="~INT" type="output"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="SI" type="input"/>
+        <pin num="15" name="SO" type="output"/>
+        <pin num="16" name="~CS" type="input"/>
+        <pin num="17" name="~RESET" type="input"/>
+        <pin num="18" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="MPU-9250-Sensor_Motion">
+      <footprints>
+        <fp>*QFN*3x3mm*P0.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU-9250-Sensor_Motion</field>
+        <field name="Footprint">Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESV_VDDIO" type="input"/>
+        <pin num="7" name="AUX_SCL" type="output"/>
+        <pin num="8" name="VDDIO" type="power_in"/>
+        <pin num="9" name="AD0/MISO" type="BiDi"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="input"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="20" name="RESV_GND" type="power_in"/>
+        <pin num="21" name="AUX_SDA" type="BiDi"/>
+        <pin num="22" name="~CS" type="input"/>
+        <pin num="23" name="SCL/SCLK" type="input"/>
+        <pin num="24" name="SDA/MOSI" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="MountingHole-Mechanical">
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="PMBT2222AYS-Transistor_BJT">
+      <footprints>
+        <fp>SC?70*</fp>
+        <fp>SC?88*</fp>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMBT2222AYS-Transistor_BJT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="B2" type="input"/>
+        <pin num="6" name="C1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="Polyfuse-Device">
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="SW_Push-Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="TJA1051T-Interface_CAN_LIN">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TJA1051T-Interface_CAN_LIN</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="n.c." type="NotConnected"/>
+        <pin num="6" name="CANL" type="BiDi"/>
+        <pin num="7" name="CANH" type="BiDi"/>
+        <pin num="8" name="S" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="TPS5420D-Regulator_Switching">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS5420D-Regulator_Switching</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="input"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="VSNS" type="input"/>
+        <pin num="5" name="ENA" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="VIN" type="power_in"/>
+        <pin num="8" name="PH" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="TestPoint-Connector">
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-CAN-rescue" part="ULN2003-Transistor_Array">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SSOP*4.4x5.2mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*W*5.3x10.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ULN2003-Transistor_Array</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I1" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I3" type="input"/>
+        <pin num="4" name="I4" type="input"/>
+        <pin num="5" name="I5" type="input"/>
+        <pin num="6" name="I6" type="input"/>
+        <pin num="7" name="I7" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="COM" type="passive"/>
+        <pin num="10" name="O7" type="openCol"/>
+        <pin num="11" name="O6" type="openCol"/>
+        <pin num="12" name="O5" type="openCol"/>
+        <pin num="13" name="O4" type="openCol"/>
+        <pin num="14" name="O3" type="openCol"/>
+        <pin num="15" name="O2" type="openCol"/>
+        <pin num="16" name="O1" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="PESD1CAN" part="PESD1CAN">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD1CAN</field>
+        <field name="Footprint">SOT23-3</field>
+        <field name="Datasheet">PESD1CAN</field>
+        <field name="Field4">Unavailable</field>
+        <field name="Field5">None</field>
+        <field name="Field6">ESD Suppressor TVS 23KV 3-Pin TO-236AB</field>
+        <field name="Field7">None</field>
+        <field name="Field8">Nexperia USA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TP4054-42-SOT25-R" part="TP4054-42-SOT25-R">
+      <description>Standalone Linear Li-ion Battery Charger with Thermal Regulation, SOT-23-5</description>
+      <docs>http://images.100y.com.tw/pdf_file/38-TP-TP4054x.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TP4054-42-SOT25-R</field>
+        <field name="Footprint">SOT95P280X100-5N</field>
+        <field name="Datasheet">http://images.100y.com.tw/pdf_file/38-TP-TP4054x.pdf</field>
+        <field name="Description">Standalone Linear Li-ion Battery Charger with Thermal Regulation, SOT-23-5</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">TOP POWER</field>
+        <field name="Manufacturer_Part_Number">TP4054-42-SOT25-R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CHRG" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="BAT" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+        <pin num="5" name="PROG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="W25M512JVEIQ" part="W25M512JVEIQ">
+      <description>Multichip Packages spiFlash, 512M-bit, 4Kb Uniform Sector</description>
+      <docs>https://www.winbond.com/resource-files/w25m512jv%20revc%2001062017.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">W25M512JVEIQ</field>
+        <field name="Footprint">SON127P800X600X80-9N-D</field>
+        <field name="Datasheet">https://www.winbond.com/resource-files/w25m512jv%20revc%2001062017.pdf</field>
+        <field name="Description">Multichip Packages spiFlash, 512M-bit, 4Kb Uniform Sector</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Winbond</field>
+        <field name="Manufacturer_Part_Number">W25M512JVEIQ</field>
+        <field name="Mouser Part Number">454-W25M512JVEIQ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=454-W25M512JVEIQ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="/CS" type="passive"/>
+        <pin num="2" name="DO_(IO1)" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="DI_(IO0)" type="passive"/>
+        <pin num="6" name="CLK" type="passive"/>
+        <pin num="7" name="IO3" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+        <pin num="9" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="ESP32-CAN-rescue">
+      <uri>D:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\For Developer\PCB\Gen2\Revision 3\ESP32-CAN/ESP32-CAN-rescue.lib</uri>
+    </library>
+    <library logical="PESD1CAN">
+      <uri>D:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\For Developer\PCB\Gen2\Revision 3\ESP32-CAN/Local_Lib/PESD1CAN.lib</uri>
+    </library>
+    <library logical="TP4054-42-SOT25-R">
+      <uri>D:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\For Developer\PCB\Gen2\Revision 3\ESP32-CAN/Local_Lib/TP4054-42-SOT25-R.lib</uri>
+    </library>
+    <library logical="W25M512JVEIQ">
+      <uri>D:\Evoke\Nutstore\.nutstore_c29mdHdhcmVAZXZva2Vldi5jb20=\Engineering\For Developer\PCB\Gen2\Revision 3\ESP32-CAN/Local_Lib/W25M512JVEIQ.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ESP32/CAN_L">
+      <node ref="R20" pin="1"/>
+      <node ref="R63" pin="2"/>
+      <node ref="TP29" pin="1"/>
+      <node ref="U10" pin="6"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J2" pin="13"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="2" name="/ESP32/IO_EX_INT">
+      <node ref="U18" pin="19"/>
+      <node ref="U13" pin="5"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad22)">
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="5" name="/RD6">
+      <node ref="J1" pin="9"/>
+      <node ref="U17" pin="15"/>
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="6" name="/MCP23017-ULN2003/PowerFlag">
+      <node ref="U18" pin="28"/>
+      <node ref="C61" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="7" name="/ESP32/CAN_H">
+      <node ref="D22" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="J2" pin="12"/>
+      <node ref="J5" pin="5"/>
+      <node ref="U10" pin="7"/>
+      <node ref="R63" pin="1"/>
+      <node ref="TP28" pin="1"/>
+    </net>
+    <net code="8" name="/CAN1_L">
+      <node ref="R62" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="J2" pin="14"/>
+      <node ref="TP12" pin="1"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="9" name="/CAN1_H">
+      <node ref="J5" pin="4"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U5" pin="7"/>
+      <node ref="D7" pin="1"/>
+      <node ref="R62" pin="1"/>
+      <node ref="J2" pin="15"/>
+      <node ref="TP11" pin="1"/>
+    </net>
+    <net code="10" name="/ESP32/MPU9250_INT">
+      <node ref="U13" pin="7"/>
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="11" name="/IN5V_12">
+      <node ref="J1" pin="15"/>
+      <node ref="D35" pin="1"/>
+      <node ref="C48" pin="1"/>
+      <node ref="R76" pin="2"/>
+    </net>
+    <net code="12" name="/IN5V_10">
+      <node ref="D33" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="R74" pin="2"/>
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="16" name="/RD7">
+      <node ref="J1" pin="21"/>
+      <node ref="U17" pin="14"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad16)">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="18" name="/SpeedSensor">
+      <node ref="R31" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="20" name="/TXD1_5V">
+      <node ref="J2" pin="7"/>
+      <node ref="R38" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="21" name="/IC_RESET">
+      <node ref="U15" pin="18"/>
+      <node ref="U4" pin="17"/>
+      <node ref="R87" pin="1"/>
+      <node ref="U18" pin="18"/>
+    </net>
+    <net code="22" name="/ESP32/I2C_SCL">
+      <node ref="R40" pin="2"/>
+      <node ref="TP27" pin="1"/>
+      <node ref="U15" pin="12"/>
+      <node ref="U18" pin="12"/>
+      <node ref="U13" pin="36"/>
+      <node ref="U9" pin="16"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="23" name="/ESP32/I2C_SDA">
+      <node ref="R37" pin="2"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U15" pin="13"/>
+      <node ref="U18" pin="13"/>
+      <node ref="U13" pin="33"/>
+      <node ref="U9" pin="15"/>
+      <node ref="TP26" pin="1"/>
+    </net>
+    <net code="24" name="/CAN CONTROLLER/CAN_SCK">
+      <node ref="U13" pin="30"/>
+      <node ref="U4" pin="13"/>
+      <node ref="TP8" pin="1"/>
+    </net>
+    <net code="25" name="/CAN CONTROLLER/CAN_MISO">
+      <node ref="U13" pin="31"/>
+      <node ref="U4" pin="15"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="26" name="/CAN CONTROLLER/CAN_MOSI">
+      <node ref="TP5" pin="1"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U13" pin="37"/>
+    </net>
+    <net code="27" name="/CH12V">
+      <node ref="D25" pin="2"/>
+      <node ref="J1" pin="20"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="28" name="/ESP32/HSPI_CLK">
+      <node ref="U6" pin="23"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U13" pin="13"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="TP15" pin="1"/>
+    </net>
+    <net code="29" name="/CAN CONTROLLER/CAN_CS">
+      <node ref="TP7" pin="1"/>
+      <node ref="R27" pin="2"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U13" pin="10"/>
+    </net>
+    <net code="30" name="/TXD2_5V">
+      <node ref="Q5" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="32" name="/RD8">
+      <node ref="J1" pin="18"/>
+      <node ref="U17" pin="13"/>
+    </net>
+    <net code="33" name="/R2">
+      <node ref="K2" pin="3"/>
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="34" name="/RD5">
+      <node ref="J1" pin="7"/>
+      <node ref="U17" pin="16"/>
+    </net>
+    <net code="35" name="/R1">
+      <node ref="J1" pin="8"/>
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="36" name="/RD4">
+      <node ref="J1" pin="4"/>
+      <node ref="U16" pin="11"/>
+    </net>
+    <net code="37" name="/RD3">
+      <node ref="U16" pin="12"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="38" name="/RD2">
+      <node ref="U16" pin="13"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="39" name="/RD1">
+      <node ref="U16" pin="14"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="40" name="/RD9">
+      <node ref="J1" pin="19"/>
+      <node ref="U17" pin="12"/>
+    </net>
+    <net code="41" name="/RXD1_5V">
+      <node ref="J2" pin="8"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="42" name="/RXD2_5V">
+      <node ref="J2" pin="3"/>
+      <node ref="R44" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="43" name="+5V">
+      <node ref="R43" pin="1"/>
+      <node ref="U11" pin="3"/>
+      <node ref="R44" pin="1"/>
+      <node ref="R61" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C67" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C68" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="U10" pin="3"/>
+      <node ref="R39" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R65" pin="1"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="44" name="GND">
+      <node ref="D37" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="U4" pin="9"/>
+      <node ref="R84" pin="2"/>
+      <node ref="D38" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="C59" pin="2"/>
+      <node ref="R69" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R81" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R67" pin="1"/>
+      <node ref="C61" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="U12" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="C60" pin="2"/>
+      <node ref="U13" pin="15"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U13" pin="38"/>
+      <node ref="C54" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="R70" pin="2"/>
+      <node ref="D50" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R5" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="R82" pin="2"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D7" pin="3"/>
+      <node ref="D34" pin="2"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U11" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R80" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="R66" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="R73" pin="2"/>
+      <node ref="U9" pin="13"/>
+      <node ref="U9" pin="9"/>
+      <node ref="D42" pin="2"/>
+      <node ref="U9" pin="7"/>
+      <node ref="U9" pin="6"/>
+      <node ref="D43" pin="2"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U9" pin="8"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="R83" pin="2"/>
+      <node ref="C64" pin="2"/>
+      <node ref="U10" pin="2"/>
+      <node ref="C65" pin="2"/>
+      <node ref="C66" pin="2"/>
+      <node ref="C67" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="D39" pin="2"/>
+      <node ref="K1" pin="1"/>
+      <node ref="C68" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="K2" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="J2" pin="18"/>
+      <node ref="R59" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U8" pin="7"/>
+      <node ref="D24" pin="2"/>
+      <node ref="D22" pin="3"/>
+      <node ref="D32" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U9" pin="11"/>
+      <node ref="U9" pin="10"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="R85" pin="2"/>
+      <node ref="D44" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="J5" pin="7"/>
+      <node ref="C26" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="U9" pin="12"/>
+      <node ref="D13" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="U15" pin="17"/>
+      <node ref="U15" pin="16"/>
+      <node ref="U15" pin="15"/>
+      <node ref="U15" pin="10"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="D49" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="C56" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="D48" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="D40" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="D45" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="U17" pin="8"/>
+      <node ref="C41" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U6" pin="20"/>
+      <node ref="U6" pin="18"/>
+      <node ref="U6" pin="11"/>
+      <node ref="U18" pin="10"/>
+      <node ref="C55" pin="2"/>
+      <node ref="U16" pin="8"/>
+      <node ref="U18" pin="16"/>
+      <node ref="U18" pin="15"/>
+    </net>
+    <net code="45" name="/ESP32/HSPI_MOSI">
+      <node ref="U6" pin="24"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U13" pin="16"/>
+      <node ref="TP13" pin="1"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="46" name="/ESP32/HSPI_CS1">
+      <node ref="U6" pin="22"/>
+      <node ref="U13" pin="29"/>
+      <node ref="TP16" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="47" name="/ESP32/HSPI_MISO">
+      <node ref="IC1" pin="2"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U13" pin="6"/>
+      <node ref="TP14" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="48" name="/ESP32/HSPI_CS2">
+      <node ref="TP17" pin="1"/>
+      <node ref="R93" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="U13" pin="9"/>
+    </net>
+    <net code="49" name="/12V_IN">
+      <node ref="J1" pin="14"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="50" name="Net-(F1-Pad1)">
+      <node ref="J2" pin="9"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad17)">
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="52" name="/USB-">
+      <node ref="J2" pin="10"/>
+      <node ref="U12" pin="6"/>
+    </net>
+    <net code="53" name="/USB+">
+      <node ref="J2" pin="11"/>
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="54" name="/MCP23017-ULN2003/IN3V_5">
+      <node ref="U18" pin="2"/>
+      <node ref="R58" pin="1"/>
+      <node ref="R59" pin="1"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="55" name="/MCP23017-ULN2003/IN3V_6">
+      <node ref="U18" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="R72" pin="1"/>
+      <node ref="R73" pin="1"/>
+    </net>
+    <net code="56" name="/MCP23017-ULN2003/IN3V_1">
+      <node ref="D12" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U18" pin="6"/>
+    </net>
+    <net code="57" name="/MCP23017-ULN2003/IN3V_2">
+      <node ref="R1" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="D48" pin="1"/>
+      <node ref="U18" pin="4"/>
+    </net>
+    <net code="59" name="/MCP23017-ULN2003/IN3V_10">
+      <node ref="R80" pin="1"/>
+      <node ref="R74" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="U18" pin="24"/>
+    </net>
+    <net code="60" name="Net-(K2-Pad4)">
+      <node ref="K2" pin="4"/>
+    </net>
+    <net code="61" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2"/>
+      <node ref="K2" pin="2"/>
+      <node ref="U16" pin="15"/>
+    </net>
+    <net code="62" name="Net-(D20-Pad2)">
+      <node ref="K1" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="U16" pin="16"/>
+    </net>
+    <net code="63" name="Net-(U17-Pad11)">
+      <node ref="U17" pin="11"/>
+    </net>
+    <net code="64" name="+3V3">
+      <node ref="R6" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="R93" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="R64" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="C59" pin="1"/>
+      <node ref="C58" pin="1"/>
+      <node ref="U4" pin="18"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U12" pin="16"/>
+      <node ref="U12" pin="4"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C57" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R46" pin="1"/>
+      <node ref="U13" pin="2"/>
+      <node ref="C56" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="R42" pin="1"/>
+      <node ref="TP18" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="U15" pin="9"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="R37" pin="1"/>
+      <node ref="J5" pin="8"/>
+      <node ref="C28" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U18" pin="17"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="U18" pin="9"/>
+      <node ref="C64" pin="1"/>
+      <node ref="C65" pin="1"/>
+      <node ref="C66" pin="1"/>
+    </net>
+    <net code="65" name="Net-(U15-Pad19)">
+      <node ref="U15" pin="19"/>
+    </net>
+    <net code="66" name="Net-(U16-Pad10)">
+      <node ref="U16" pin="10"/>
+    </net>
+    <net code="67" name="Net-(U17-Pad10)">
+      <node ref="U17" pin="10"/>
+    </net>
+    <net code="68" name="Net-(K1-Pad4)">
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="69" name="Net-(U17-Pad6)">
+      <node ref="U17" pin="6"/>
+    </net>
+    <net code="70" name="Net-(U16-Pad7)">
+      <node ref="U16" pin="7"/>
+    </net>
+    <net code="71" name="Net-(U17-Pad7)">
+      <node ref="U17" pin="7"/>
+    </net>
+    <net code="72" name="Net-(R47-Pad2)">
+      <node ref="R47" pin="2"/>
+      <node ref="U16" pin="1"/>
+    </net>
+    <net code="73" name="Net-(R48-Pad2)">
+      <node ref="R48" pin="2"/>
+      <node ref="U16" pin="2"/>
+    </net>
+    <net code="74" name="Net-(R50-Pad2)">
+      <node ref="R50" pin="2"/>
+      <node ref="U16" pin="4"/>
+    </net>
+    <net code="75" name="Net-(R52-Pad2)">
+      <node ref="U16" pin="6"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="76" name="+12V">
+      <node ref="Q1" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U16" pin="9"/>
+      <node ref="R60" pin="1"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="U17" pin="9"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="K2" pin="5"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="K1" pin="5"/>
+    </net>
+    <net code="77" name="/MCP23017-ULN2003/IN3V_4">
+      <node ref="D15" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="U18" pin="3"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="78" name="Net-(R51-Pad2)">
+      <node ref="R51" pin="2"/>
+      <node ref="U16" pin="5"/>
+    </net>
+    <net code="79" name="Net-(R49-Pad2)">
+      <node ref="R49" pin="2"/>
+      <node ref="U16" pin="3"/>
+    </net>
+    <net code="80" name="Net-(U18-Pad21)">
+      <node ref="U18" pin="21"/>
+    </net>
+    <net code="81" name="Net-(U18-Pad7)">
+      <node ref="U18" pin="7"/>
+    </net>
+    <net code="82" name="Net-(U18-Pad27)">
+      <node ref="U18" pin="27"/>
+    </net>
+    <net code="83" name="Net-(U18-Pad20)">
+      <node ref="U18" pin="20"/>
+    </net>
+    <net code="84" name="Net-(U18-Pad14)">
+      <node ref="U18" pin="14"/>
+    </net>
+    <net code="85" name="Net-(U18-Pad11)">
+      <node ref="U18" pin="11"/>
+    </net>
+    <net code="86" name="Net-(U15-Pad27)">
+      <node ref="U15" pin="27"/>
+    </net>
+    <net code="87" name="Net-(U15-Pad26)">
+      <node ref="U15" pin="26"/>
+    </net>
+    <net code="88" name="/MCP23017-ULN2003/LED_OUT1">
+      <node ref="U15" pin="24"/>
+      <node ref="R92" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D46-Pad2)">
+      <node ref="D46" pin="2"/>
+      <node ref="R92" pin="1"/>
+    </net>
+    <net code="90" name="/MCP23017-ULN2003/LED_OUT2">
+      <node ref="U15" pin="25"/>
+      <node ref="R91" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2"/>
+      <node ref="R91" pin="1"/>
+    </net>
+    <net code="93" name="/MCP23017-ULN2003/IN3V_12">
+      <node ref="R76" pin="1"/>
+      <node ref="U18" pin="26"/>
+      <node ref="D41" pin="1"/>
+      <node ref="R82" pin="1"/>
+    </net>
+    <net code="94" name="/MCP23017-ULN2003/IN3V_11">
+      <node ref="R81" pin="1"/>
+      <node ref="R75" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="U18" pin="25"/>
+    </net>
+    <net code="95" name="/MCP23017-ULN2003/IN3V_9">
+      <node ref="R83" pin="1"/>
+      <node ref="U18" pin="23"/>
+      <node ref="D42" pin="1"/>
+      <node ref="R77" pin="1"/>
+    </net>
+    <net code="96" name="/MCP23017-ULN2003/IN3V_8">
+      <node ref="R85" pin="1"/>
+      <node ref="R79" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="U18" pin="22"/>
+    </net>
+    <net code="97" name="Net-(R47-Pad1)">
+      <node ref="U15" pin="1"/>
+      <node ref="R47" pin="1"/>
+    </net>
+    <net code="98" name="Net-(R55-Pad1)">
+      <node ref="U15" pin="21"/>
+      <node ref="R55" pin="1"/>
+    </net>
+    <net code="99" name="Net-(U15-Pad20)">
+      <node ref="U15" pin="20"/>
+    </net>
+    <net code="100" name="Net-(R48-Pad1)">
+      <node ref="R48" pin="1"/>
+      <node ref="U15" pin="2"/>
+    </net>
+    <net code="101" name="Net-(U15-Pad14)">
+      <node ref="U15" pin="14"/>
+    </net>
+    <net code="102" name="Net-(U15-Pad11)">
+      <node ref="U15" pin="11"/>
+    </net>
+    <net code="103" name="Net-(R56-Pad1)">
+      <node ref="U15" pin="22"/>
+      <node ref="R56" pin="1"/>
+    </net>
+    <net code="104" name="Net-(U15-Pad28)">
+      <node ref="U15" pin="28"/>
+    </net>
+    <net code="105" name="Net-(R54-Pad1)">
+      <node ref="R54" pin="1"/>
+      <node ref="U15" pin="8"/>
+    </net>
+    <net code="106" name="Net-(R53-Pad1)">
+      <node ref="R53" pin="1"/>
+      <node ref="U15" pin="7"/>
+    </net>
+    <net code="107" name="Net-(R52-Pad1)">
+      <node ref="R52" pin="1"/>
+      <node ref="U15" pin="6"/>
+    </net>
+    <net code="108" name="Net-(R51-Pad1)">
+      <node ref="U15" pin="5"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="109" name="Net-(R50-Pad1)">
+      <node ref="R50" pin="1"/>
+      <node ref="U15" pin="4"/>
+    </net>
+    <net code="110" name="Net-(R49-Pad1)">
+      <node ref="R49" pin="1"/>
+      <node ref="U15" pin="3"/>
+    </net>
+    <net code="111" name="Net-(R57-Pad1)">
+      <node ref="R57" pin="1"/>
+      <node ref="U15" pin="23"/>
+    </net>
+    <net code="112" name="/MCP23017-ULN2003/IN3V_3">
+      <node ref="R25" pin="2"/>
+      <node ref="D49" pin="1"/>
+      <node ref="U18" pin="5"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="113" name="/MCP23017-ULN2003/IN3V_7">
+      <node ref="R84" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="U18" pin="8"/>
+      <node ref="R78" pin="1"/>
+    </net>
+    <net code="114" name="Net-(R56-Pad2)">
+      <node ref="R56" pin="2"/>
+      <node ref="U17" pin="4"/>
+    </net>
+    <net code="115" name="Net-(R57-Pad2)">
+      <node ref="U17" pin="5"/>
+      <node ref="R57" pin="2"/>
+    </net>
+    <net code="116" name="Net-(R55-Pad2)">
+      <node ref="R55" pin="2"/>
+      <node ref="U17" pin="3"/>
+    </net>
+    <net code="117" name="Net-(R54-Pad2)">
+      <node ref="U17" pin="2"/>
+      <node ref="R54" pin="2"/>
+    </net>
+    <net code="118" name="Net-(R53-Pad2)">
+      <node ref="U17" pin="1"/>
+      <node ref="R53" pin="2"/>
+    </net>
+    <net code="120" name="Net-(U13-Pad21)">
+      <node ref="U13" pin="21"/>
+    </net>
+    <net code="121" name="Net-(U13-Pad22)">
+      <node ref="U13" pin="22"/>
+    </net>
+    <net code="122" name="Net-(U13-Pad18)">
+      <node ref="U13" pin="18"/>
+    </net>
+    <net code="123" name="Net-(U13-Pad20)">
+      <node ref="U13" pin="20"/>
+    </net>
+    <net code="124" name="Net-(U13-Pad19)">
+      <node ref="U13" pin="19"/>
+    </net>
+    <net code="125" name="/ESP32/RXD1">
+      <node ref="TP21" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R42" pin="2"/>
+      <node ref="U13" pin="4"/>
+    </net>
+    <net code="126" name="Net-(U12-Pad12)">
+      <node ref="U12" pin="12"/>
+    </net>
+    <net code="127" name="/ESP32/TXD1">
+      <node ref="U13" pin="26"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="TP23" pin="1"/>
+    </net>
+    <net code="128" name="Net-(U12-Pad10)">
+      <node ref="U12" pin="10"/>
+    </net>
+    <net code="129" name="/ESP32/IO0">
+      <node ref="U13" pin="25"/>
+      <node ref="TP19" pin="1"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="130" name="/ESP32/DTR">
+      <node ref="Q6" pin="4"/>
+      <node ref="U12" pin="13"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="131" name="/ESP32/RTS">
+      <node ref="U12" pin="14"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="Q6" pin="5"/>
+    </net>
+    <net code="132" name="Net-(U12-Pad11)">
+      <node ref="U12" pin="11"/>
+    </net>
+    <net code="133" name="/ESP32/TXD">
+      <node ref="U12" pin="3"/>
+      <node ref="U13" pin="35"/>
+      <node ref="TP20" pin="1"/>
+    </net>
+    <net code="134" name="Net-(U12-Pad9)">
+      <node ref="U12" pin="9"/>
+    </net>
+    <net code="135" name="Net-(U12-Pad15)">
+      <node ref="U12" pin="15"/>
+    </net>
+    <net code="136" name="Net-(U12-Pad7)">
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="137" name="Net-(U12-Pad8)">
+      <node ref="U12" pin="8"/>
+    </net>
+    <net code="138" name="/ESP32/RXD">
+      <node ref="TP22" pin="1"/>
+      <node ref="U13" pin="34"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="139" name="Net-(U13-Pad17)">
+      <node ref="U13" pin="17"/>
+    </net>
+    <net code="140" name="Net-(U13-Pad14)">
+      <node ref="U13" pin="14"/>
+    </net>
+    <net code="141" name="Net-(U13-Pad11)">
+      <node ref="U13" pin="11"/>
+    </net>
+    <net code="142" name="Net-(U13-Pad32)">
+      <node ref="U13" pin="32"/>
+    </net>
+    <net code="143" name="/ESP32/TXD2">
+      <node ref="TP25" pin="1"/>
+      <node ref="U13" pin="28"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="144" name="/ESP32/RXD2">
+      <node ref="R46" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="TP24" pin="1"/>
+      <node ref="U13" pin="27"/>
+    </net>
+    <net code="145" name="Net-(R87-Pad2)">
+      <node ref="R87" pin="2"/>
+      <node ref="U13" pin="24"/>
+    </net>
+    <net code="146" name="/ESP32/EN_pin">
+      <node ref="SW1" pin="2"/>
+      <node ref="U13" pin="3"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="Q6" pin="6"/>
+    </net>
+    <net code="147" name="/ESP32/iSpeedSensor">
+      <node ref="R31" pin="1"/>
+      <node ref="U13" pin="23"/>
+      <node ref="R11" pin="1"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="148" name="/ESP32/CAN2_TXD">
+      <node ref="TP31" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U13" pin="12"/>
+    </net>
+    <net code="149" name="Net-(U10-Pad5)">
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="150" name="Net-(C41-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="C41" pin="1"/>
+    </net>
+    <net code="151" name="Net-(C42-Pad1)">
+      <node ref="C42" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="152" name="Net-(R19-Pad2)">
+      <node ref="U10" pin="8"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="153" name="Net-(R71-Pad2)">
+      <node ref="U10" pin="4"/>
+      <node ref="R71" pin="2"/>
+    </net>
+    <net code="154" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2"/>
+      <node ref="R64" pin="2"/>
+    </net>
+    <net code="155" name="/ESP32/CAN2_RXD">
+      <node ref="TP30" pin="1"/>
+      <node ref="R71" pin="1"/>
+      <node ref="R70" pin="1"/>
+      <node ref="U13" pin="8"/>
+    </net>
+    <net code="156" name="Net-(R2-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="157" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="158" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="159" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="160" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="161" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="F2" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="162" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+      <node ref="R61" pin="2"/>
+    </net>
+    <net code="163" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="R60" pin="2"/>
+    </net>
+    <net code="164" name="Net-(C60-Pad1)">
+      <node ref="D26" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="C60" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="165" name="Net-(C1-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="F2" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="166" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="167" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="168" name="Net-(R10-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="169" name="Net-(C4-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="170" name="Net-(C5-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="171" name="Net-(R67-Pad2)">
+      <node ref="R68" pin="2"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="R67" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="172" name="Net-(R69-Pad1)">
+      <node ref="R69" pin="1"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="173" name="Net-(R68-Pad1)">
+      <node ref="R68" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="174" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="175" name="Net-(C12-Pad1)">
+      <node ref="Y1" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="176" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="177" name="Net-(TP10-Pad1)">
+      <node ref="TP10" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="178" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="179" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="180" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="181" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="182" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="183" name="Net-(C13-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="184" name="Net-(C14-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="185" name="Net-(R12-Pad2)">
+      <node ref="U5" pin="8"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="186" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="187" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="188" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="189" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="190" name="Net-(U6-Pad21)">
+      <node ref="U6" pin="21"/>
+    </net>
+    <net code="191" name="Net-(C16-Pad1)">
+      <node ref="U6" pin="10"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="192" name="Net-(IC2-Pad5)">
+      <node ref="IC2" pin="5"/>
+      <node ref="R66" pin="1"/>
+    </net>
+    <net code="193" name="Net-(D30-Pad2)">
+      <node ref="R65" pin="2"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="194" name="Net-(D30-Pad1)">
+      <node ref="IC2" pin="1"/>
+      <node ref="D30" pin="1"/>
+    </net>
+    <net code="195" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="196" name="Net-(U9-Pad3)">
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="197" name="Net-(U9-Pad4)">
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="198" name="Net-(U9-Pad1)">
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="199" name="/IN5V_7">
+      <node ref="J1" pin="13"/>
+      <node ref="R78" pin="2"/>
+      <node ref="C50" pin="1"/>
+      <node ref="D37" pin="1"/>
+    </net>
+    <net code="200" name="/IN5V_6">
+      <node ref="D31" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="J1" pin="12"/>
+      <node ref="R72" pin="2"/>
+    </net>
+    <net code="201" name="/IN5V_5">
+      <node ref="D23" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="R58" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="202" name="/IN5V_4">
+      <node ref="C31" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="203" name="/IN5V_3">
+      <node ref="J2" pin="6"/>
+      <node ref="D13" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="204" name="/IN5V_2">
+      <node ref="J2" pin="5"/>
+      <node ref="D10" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="205" name="/IN5V_1">
+      <node ref="J2" pin="16"/>
+      <node ref="R23" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="C26" pin="1"/>
+    </net>
+    <net code="206" name="/IN5V_9">
+      <node ref="R77" pin="2"/>
+      <node ref="J1" pin="25"/>
+      <node ref="D36" pin="1"/>
+      <node ref="C49" pin="1"/>
+    </net>
+    <net code="207" name="/IN5V_11">
+      <node ref="R75" pin="2"/>
+      <node ref="J1" pin="11"/>
+      <node ref="C47" pin="1"/>
+      <node ref="D34" pin="1"/>
+    </net>
+    <net code="208" name="/IN5V_8">
+      <node ref="R79" pin="2"/>
+      <node ref="D38" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="J1" pin="26"/>
+    </net>
+  </nets>
+</export>

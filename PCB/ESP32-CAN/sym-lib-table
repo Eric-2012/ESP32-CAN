@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name ESP32-WROOM-32D)(type Legacy)(uri ${KIPRJMOD}/Local_Lib/ESP32-WROOM-32D.lib)(options "")(descr ""))
+  (lib (name TJA1050)(type Legacy)(uri ${KIPRJMOD}/Local_Lib/TJA1050.lib)(options "")(descr ""))
+  (lib (name W25M512JVEIQ)(type Legacy)(uri ${KIPRJMOD}/Local_Lib/W25M512JVEIQ.lib)(options "")(descr ""))
+  (lib (name ME6211C33M5G)(type Legacy)(uri ${KIPRJMOD}/Local_Lib/ME6211C33M5G.lib)(options "")(descr ""))
+  (lib (name PESD1CAN)(type Legacy)(uri ${KIPRJMOD}/Local_Lib/PESD1CAN.lib)(options "")(descr ""))
+  (lib (name relay_5p_songle)(type Legacy)(uri ${KIPRJMOD}/Local_Lib/relay_5p_songle.lib)(options "")(descr ""))
+  (lib (name ESP32-CAN-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP32-CAN-rescue.lib)(options "")(descr ""))
+  (lib (name TP4054-42-SOT25-R)(type Legacy)(uri ${KIPRJMOD}/Local_Lib/TP4054-42-SOT25-R.lib)(options "")(descr ""))
+  (lib (name TP4056)(type Legacy)(uri ${KIPRJMOD}/Local_Lib/TP4056.lib)(options "")(descr ""))
+)

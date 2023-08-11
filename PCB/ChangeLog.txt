@@ -1,0 +1,66 @@
+A lot of changes were done between revision 2.1 and 2.2, but they were not written.
+So the changes below were done comparing the Kicad project of revision 2.2.
+
+Revision 2.3
+- Remove EEPROM
+- Remove 4 settings resistors and traces
+- Remove connector for external SPI and I2C
+- Remove short circuit between pins 19 and 20 from I2C multiplexer for inputs
+- Put GND in the pin 11 of the accelerometer (it says in the datasheet to not keep floating)
+- Invert the TX and RX pins from the BMS in the connector
+- Remove proctections from the serial and USB connections, because there were not documentation on internet saying to use and the serial/USB were having weird things in the alfaboard, that were solved after removed
+- Copied the protection circuit input to be used for the speed sensor in pin 10 of the big connector
+- IN 11 changed to pin 11, because of the fast charge switch that is already being used in some bikes
+- The transceiver chip for the ESP32 CAN had the supply voltage changed from 3.3V to 5V, to follow the pattern of the external CAN
+- The label Comparator3V was changed to PowerFlag
+- The resistor used to limit charging current from the coin battery was changed from 1M to 220K, to charge in 4mA, instead of 1mA
+- All inputs protections circuit are following the same pattern
+
+Revision 2.3.1
+- Change RD7 from pin 21 in the big connector to pin 17
+- Removed RD6 from pin 23, because it was already in pin 9
+- Put the common from the relays in the pin 21 in the big connector
+- Change R1 from pin 8 in the big connector to pin 22
+- Change R2 from pin 17 in the big connector to pin 23
+- The resistors used in the voltage divider from the inputs were changed from 5K to 5.1K, to be standard
+
+Revision 2.3.2
+- Silk reposition
+- Remove R69 and R27 (They are not being used in any document found on internet and neither on alfaboard, as it was working there, it was decided to remove)
+- Crystal used in the CAN Controller changed from 16Mhz do 8Mhz (Searching on internet, it was possible to see that some people had problem using 16Mhz, so because of this and because it was working in the alfaboard with 8Mhz, the change was done)
+- Changed usb converter to CH340C (In the project it was being used CH340E, but there is not 16 pin of this model, so in the first batch the PCB manufacturer changed to CH340G. The problem is that CH340G needs crystal, so it was necessary to change in the project to CH340C)
+
+Revision 2.3.3
+- All traces were redone and components repositioned
+- Removed the power flag (operational amplifier circuit that sinalizes when the 12V was removed)
+- Added some additional capacitors
+- The reset of I2C multiplexers were put in 3.3V, to be always on, even when the ESP32 is sleeping
+- The inputs and outputs in the I2C multiplexers were repositioned to be easier to route
+- The interrupt pins from I2C expander and accelerometer were inverted in the ESP32, to be easier to route
+- The HSPI_CS2 pin were moved from IO33 to IO26, then the IO33 was used for the 12V monitor
+- The 8 pins connector for debug was removed
+- One LED output was removed and the other was moved to the top
+- The resistors for LEDs were calculated using 2V as drop voltage, keeping 1mA as current
+- The same diode used in the input of 12V was used in the output of 5V, for protection
+
+Revision 2.3.3.1
+- Removed pullup resistors from MOSI, MISO and SCK of SPI. It's not necessary to have them there, just in the CS pins in case of multiple devices in the same bus.
+- 12VMonitor moved from IO33 to IO34
+- HSPI MISO moved from IO34 to IO12
+- CAN2_TX moved from IO33 to IO2
+- The reset pins from I2C expanders were connected together with the MCP2515 reset pin in the IO33 with a pull up, that means normally enabled
+- The write protection pin from FRAM memory was added to the IO27, with pullup, that means normally protected
+- 2 capacitors added in the 12V monitor, to avoid any noise coming from the 12V line
+- The board was increased to 92mm
+
+Revision 2.3.3.2
+- Changed the pin size of the connectors from 0.8 to 1.2 and the pad to 1.7. Because of this change, some traces were necessary to be moved
+- Capacitor C15 moved closer to the 12V input
+- C54 and C55 were selected to be 16V. C64, C67 and C68 were selected to be 25V.
+
+Revision 2.3.3.3
+- IO2 and IO13 were inverted.
+
+CHECK BEFORE PRODUCTION (because KICAD removes when PCB is updated according to the schematic)
+- polarity in diodes on the silk
+- evoke logo
